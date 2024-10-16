@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home - KONO Lighting</title>
+  <link rel="shortcut icon" href="images/logo/lsi_logo.png" type="image/x-icon">
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Link to Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link to AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Link to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- Navbar Starts Here -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-lg">
+    <!-- Logo Image on the left side -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo/logo.png" alt="Logo" width="80">
+    </a>
+
+    <!-- Toggler button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
+      aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-light"></span>
+    </button>
+
+    <!-- Dropdown menus on the right side -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <!-- Dropdown 1 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action 1</a></li>
+            <li><a class="dropdown-item" href="#">Another action 1</a></li>
+          </ul>
+        </li>
+        <!-- Dropdown 2 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action 2</a></li>
+            <li><a class="dropdown-item" href="#">Another action 2</a></li>
+          </ul>
+        </li>
+        <!-- Dropdown 3 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action 3</a></li>
+            <li><a class="dropdown-item" href="#">Another action 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar Ends Here -->
+
+
+<!-- Banner Slider Section Starts Here -->
+<section class="banner-slider">
+  <!-- Slide 1 -->
+  <div class="slide" id="slide-1">
+    <!-- Left -->
+    <div class="slide-text">
+      <h1 data-aos="fade-down" data-aos-duration="1000">Bespoke Curated Art Exhibits</h1>
+      <p data-aos="fade" data-aos-duration="1000">Personalized, custom-designed LED art displays. Tailored to elevate your space and ignite your senses. Transforming environments with vibrant, immersive experiences.</p>
+      <a href="#services"><button data-aos="fade-up" data-aos-duration="1000">View Services <i class="fa-solid fa-arrow-right"></i></button></a>
+      <a href="#contact"><button id="contact-btn" data-aos="fade-up" data-aos-duration="1000">Contact Us</button></a>
+    </div>
+    <!-- Right -->
+     <div class="slide-image">
+      <img src="assets/images/slider/slide8.png" alt="image">
+     </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide" id="slide-2">
+    <!-- Left -->
+    <div class="slide-text">
+      <h1>Custom LED art for the discerning collector</h1>
+      <p>Vibrant colors, intricate details, and mesmerizing patterns come alive with precise, pixel-perfect luxury.</p>
+      <a href="#services"><button>View Services <i class="fa-solid fa-arrow-right"></i></button></a>
+      <a href="#contact"><button id="contact-btn">Contact Us</button></a>
+    </div>
+    <!-- Right -->
+     <div class="slide-image">
+      <img src="assets/images/slider/slide4.png" alt="image">
+     </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" id="slide-3">
+    <!-- Left -->
+    <div class="slide-text">
+      <h1>Glowing Geometry: Custom LED Structures</h1>
+      <p>Where art meets architecture, our custom LED structures redefine space with mesmerizing patterns, vibrant colors, and precise geometry.</p>
+      <a href="#services"><button>View Services <i class="fa-solid fa-arrow-right"></i></button></a>
+      <a href="#contact"><button id="contact-btn">Contact Us</button></a>
+    </div>
+    <!-- Right -->
+     <div class="slide-image">
+      <img src="assets/images/slider/slide3.png" alt="image">
+     </div>
+  </div>
+
+  <button class="slider-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+  <button class="slider-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+
+</section>
+<!-- Banner Slider Section Ends Here -->
+
+
+<!-- Expertise Row Section Starts Here -->
+<section class="expertise">
+  <div class="expertise-row container-lg" data-aos="fade" data-aos-duration="1000">
+    <!-- Card 1 -->
+    <div class="expertise-card">
+      <!-- Left -->
+      <div class="card-left">
+        <!-- <img src="" alt="image"> -->
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <!-- Right -->
+      <div class="card-right">
+        <h2>Award Winning Solutions</h2>
+        <a href="">Our unique offering <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="expertise-card">
+      <!-- Left -->
+      <div class="card-left">
+        <!-- <img src="" alt="image"> -->
+        <i class="fa-regular fa-calendar-days"></i>
+      </div>
+      <!-- Right -->
+      <div class="card-right">
+        <h2>Exclusive 10 years warranty</h2>
+        <a href="">What's included <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="expertise-card">
+      <!-- Left -->
+      <div class="card-left">
+        <!-- <img src="" alt="image"> -->
+        <i class="fa-solid fa-house-circle-check"></i>
+      </div>
+      <!-- Right -->
+      <div class="card-right">
+        <h2>Modern interior & <br> exterior projects</h2>
+        <a href="">See our work <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="expertise-card">
+      <!-- Left -->
+      <div class="card-left">
+        <!-- <img src="" alt="image"> -->
+        <i class="fa-solid fa-pencil"></i>
+      </div>
+      <!-- Right -->
+      <div class="card-right">
+        <h2>Get a personal <br> estimate</h2>
+        <a href="">Fill the form <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Expertise Row Section Ends Here -->
+
+
+<!-- About Us Section Starts Here -->
+<div id="about">
+  <section class="about-us container-lg">
+    <div class="about-image">
+      <img src="assets/images/about2.jpg" alt="image" data-aos="fade-up" data-aos-duration="1000">
+    </div>
+    <div class="about-content" data-aos="fade-down" data-aos-duration="1000">
+      <h5>ABOUT US</h5>
+      <!-- <h1>Our philosophy</h1> -->
+      <div class="line"></div>
+      <p>Fifty years of excellence in lighting. From India to the world, we deliver top-quality solutions. Driven by passion, we innovate and illuminate. Shaping light, shaping life. India's leading manufacturers in this industry.
+      </p>
+
+      <div class="content-menu">
+        <div class="menu active" data-target="content1">Our Mission</div>
+        <div class="menu" data-target="content2">Our Process</div>
+        <div class="menu" data-target="content3">Our Pride</div>
+      </div>
+      <div id="content1" class="content-text active">
+        <p>Our mission is to continually enhance and achieve customer satisfaction by crafting meticulously designed lighting from the finest materials.</p>
+        <p>Throughout the years, our innovative architectural luminaires have illuminated a wide range of commercial, retail, and institutional spaces, showcasing our expertise and creativity.
+        </p>
+        <p>We are dedicated to bringing lighting visions to life, collaborating closely with architects, lighting designers, and electrical contractors to ensure each project exceeds expectations.</p>
+        <!-- <p>Premium quality. We always get the best people.</p> -->
+      </div>
+      <div id="content2" class="content-text">
+        <p class="fw-bold" style="margin: 0;">Brainstorming :</p>
+        <p>We will ensure your each project Is treated unique by our team.</p>
+        <p class="fw-bold" style="margin: 0;">Planning :</p>
+        <p>We develop your bespoke strategy, detailing all the aspects that will need be carried out to meet your project goals.</p>
+        <p class="fw-bold" style="margin: 0;">Implementation :</p>
+        <p>As your Lighting partner, we execute, monitor the progress against the plan to ensure deadlines and Illumination deign is met.
+        </p>
+      </div>
+      <div id="content3" class="content-text">
+        <p>We take pride in our ability to enhance architectural aesthetics through our meticulously crafted lighting solutions.</p>
+        <p>We transform outdoor spaces and cityscapes with our pioneering innovations. Each of our designs enriches lives, offering more than mere illumination.
+        </p>
+        <p>Our lighting solutions add value and beauty to any environment, enhancing the aesthetic and functional appeal of urban and outdoor areas. We believe in the power of light to create vibrant, welcoming spaces.</p>
+        <!-- <p>Premium quality. We always get the best people.</p> -->
+      </div>
+    </div>
+  </section>
+</div>
+<!-- About Us Section Ends Here -->
+
+
+<!-- Services Section Starts Here -->
+<section class="services container-lg" id="services">
+  <div class="head">
+    <h1 data-aos="fade-up" data-aos-duration="1000">SERVICES</h1>
+    <h2 data-aos="fade-down" data-aos-duration="1000">We create art with LEDs</h2>
+    <div class="line"></div>
+  </div>
+  <!-- Card Row -->
+  <div class="services-cards-row">
+    <!-- Card 1 -->
+    <div class="card" data-aos="fade-up" data-aos-duration="1000">
+      <div class="top">
+        <img src="assets/images/services-cards/1.jpg" alt="image">
+      </div>
+      <div class="bottom">
+        <h3>Wall Surface</h3>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="card" data-aos="fade-up" data-aos-duration="1700">
+      <div class="top">
+        <img src="assets/images/services-cards/2.jpg" alt="image">
+      </div>
+      <div class="bottom">
+        <h3>Pendant Lighting</h3>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="card" data-aos="fade-up" data-aos-duration="2400">
+      <div class="top">
+        <img src="assets/images/services-cards/3.jpg" alt="image">
+      </div>
+      <div class="bottom">
+        <h3>Ceiling Recessed</h3>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card" data-aos="fade-up" data-aos-duration="3000">
+      <div class="top">
+        <img src="assets/images/services-cards/4.jpg" alt="image">
+      </div>
+      <div class="bottom">
+        <h3>Track Lighting</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Services Section Ends Here -->
+
+
+<!-- Work with the experts Section Starts Here -->
+<section class="work-with-experts">
+  <div class="experts container-lg">
+    <div class="head">
+      <h1 data-aos="fade-up" data-aos-duration="1000">Work with the experts</h1>
+      <h2 data-aos="fade-down" data-aos-duration="1000">3 reasons why our clients love working with us</h2>
+      <div class="line"></div>
+    </div>
+    <!-- Experts Card Row -->
+    <div class="expert-card-row" data-aos="fade-up" data-aos-duration="1000">
+      <!-- Card 1 -->
+      <div class="expert-card">
+        <!-- count -->
+        <div class="card-count">
+          <div class="layer"></div>
+          <h1>/01</h1>
+        </div>
+        <!-- main -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates.</p>
+        <a href="">About Us <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+      <!-- Card 2 -->
+      <div class="expert-card">
+        <!-- count -->
+        <div class="card-count">
+          <div class="layer"></div>
+          <h1>/02</h1>
+        </div>
+        <!-- main -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates.</p>
+        <a href="">View our projects <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+      <!-- Card 3 -->
+      <div class="expert-card">
+        <!-- count -->
+        <div class="card-count">
+          <div class="layer"></div>
+          <h1>/03</h1>
+        </div>
+        <!-- main -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates.</p>
+        <a href="">Learn more <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Work with the experts Section Ends Here -->
+
+
+<!-- Contact Section Starts Here -->
+<section class="contact" id="contact">
+  <img src="assets/images/contact-bg.jpg" alt="image">
+
+  <div class="container-lg">
+    <div class="contact-form" data-aos="fade-down" data-aos-duration="1000">
+      <h5>GET FREE QOUTE</h5>
+      <h1>Let's work together.</h1>
+      <div class="line"></div>
+      <form action="" method="post">
+        <input type="text" placeholder="Name" name="name">
+        <input type="email" placeholder="Email" name="email">
+        <input type="text" placeholder="Subject" name="sub">
+        <textarea name="interest" id="interest" placeholder="Hello, I am interested in..."></textarea>
+        <button>SEND</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- Contact Section Ends Here -->
+
+
+
+<!-- Footer Starts Here -->
+<footer class="text-center text-lg-start text-white" style="background-color: black;">
+  <div class="container py-5 px-4 pb-0">
+    <section class="">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            KONO Lighting
+          </h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, voluptatem? Perspiciatis tempore quasi,
+            placeat ducimus in repellat expedita libero.
+          </p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Product</a>
+          </p>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Product</a>
+          </p>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Product</a>
+          </p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            Useful links
+          </h6>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Link</a>
+          </p>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Link</a>
+          </p>
+          <p>
+            <a class="text-white text-decoration-none" style="cursor: pointer;">Link</a>
+          </p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p><i class="fas fa-home mr-3"></i> Adrress</p>
+          <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +91 1234567890</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-3">
+
+    <section class="p-3 pt-0">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7 col-lg-8 text-center text-md-start">
+          <div class="p-3">
+            ©2024 Copyright: All Rights Reserved
+          </div>
+        </div>
+
+        <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+              class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+              class="fab fa-twitter"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</footer>
+<!-- Footer Ends Here -->
+
+
+<div class="back-to-top">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+
+
+
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- Bootstrap JS Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- AOS Animation JS Link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- JS Link -->
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
