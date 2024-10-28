@@ -1,5 +1,23 @@
-// Functionality For Banner Slider
 
+// Functionality For Product Page Rounded Cards Hover
+document.querySelectorAll('.rounded-card').forEach((card, index) => {
+  let img = card.querySelector('img');
+  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1}.jpg`;
+  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1}-light.jpg`;
+
+  img.addEventListener('mouseenter', () => {
+      img.setAttribute('src', hoverSrc);
+  });
+
+  img.addEventListener('mouseleave', () => {
+      img.setAttribute('src', originalSrc);
+  });
+});
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Functionality For Home Page Banner Slider
 document.addEventListener("DOMContentLoaded", function () {
   let currentSlide = 1;
   const slides = document.querySelectorAll(".banner-slider .slide");
@@ -76,7 +94,8 @@ document.querySelector(".slider-btn.prev").addEventListener("mouseenter", () => 
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
-// Functionality For Cards Hover Effect
+
+// Functionality For Home Page Cards Hover Effect
 let card = document.querySelectorAll(".expert-card");
 let layer = document.querySelectorAll(".card-count .layer");
 
@@ -138,34 +157,5 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   let currentSlide = 1;
-//   const totalSlides = document.querySelectorAll('.banner-slider .slide').length;
+// -----------------------------------------------------------------------------------------------------------------------------------------
 
-//   function showSlide(slideNumber) {
-//       // Hide all slides
-//       document.querySelectorAll('.banner-slider .slide').forEach(slide => {
-//           slide.style.display = 'none';
-//       });
-
-//       // Show the current slide
-//       document.getElementById(`slide-${slideNumber}`).style.display = 'flex';
-//   }
-
-//   function nextSlide() {
-//       currentSlide = (currentSlide % totalSlides) + 1;
-//       showSlide(currentSlide);
-//   }
-
-//   function prevSlide() {
-//       currentSlide = (currentSlide - 2 + totalSlides) % totalSlides + 1;
-//       showSlide(currentSlide);
-//   }
-
-//   // Show the first slide initially
-//   showSlide(currentSlide);
-
-//   // Add event listeners to buttons
-//   document.querySelector('.slider-btn.next').addEventListener('click', nextSlide);
-//   document.querySelector('.slider-btn.prev').addEventListener('click', prevSlide);
-// });
