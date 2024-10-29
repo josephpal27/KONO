@@ -33,6 +33,71 @@ document.querySelectorAll('.slider-container .card').forEach((card, index) => {
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
+// Functionality For Home Page Service Cards Slider Hover
+document.querySelectorAll('.services-cards-row .card').forEach((card, index) => {
+  let img = card.querySelector('img');
+  let originalSrc = `assets/images/services-cards/service-card-${index + 1}.jpg`;
+  let hoverSrc = `assets/images/services-cards/service-card-${index + 1}-light.jpg`;
+
+  img.addEventListener('mouseenter', () => {
+      img.setAttribute('src', hoverSrc);
+  });
+
+  img.addEventListener('mouseleave', () => {
+      img.setAttribute('src', originalSrc);
+  });
+});
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// Functionality For Home Page Banner Image Hover
+document.querySelectorAll('.banner-slider .slide-image').forEach((card, index) => {
+  let img = card.querySelector('img');
+  let originalSrc = `assets/images/slider/banner-${index + 1}.jpg`;
+  let hoverSrc = `assets/images/slider/banner-${index + 1}-light.jpg`;
+
+  img.addEventListener('mouseenter', () => {
+      img.setAttribute('src', hoverSrc);
+  });
+
+  img.addEventListener('mouseleave', () => {
+      img.setAttribute('src', originalSrc);
+  });
+});
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// Functionality For Home Page About Image Hover
+document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
+  let img = card.querySelector('img');
+  let originalSrc = `assets/images/about-${index + 1}.jpg`;
+  let hoverSrc = `assets/images/about-${index + 1}-light.jpg`;
+
+  img.addEventListener('mouseenter', () => {
+      img.setAttribute('src', hoverSrc);
+  });
+
+  img.addEventListener('mouseleave', () => {
+      img.setAttribute('src', originalSrc);
+  });
+});
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// Functionality For Home Page Contact Image Hover
+let contactBg = document.querySelector('.contact img');
+contactBg.addEventListener('mouseenter', () => {
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.png');
+})
+contactBg.addEventListener('mouseleave', () => {
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1.png');
+})
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
 
 // Functionality For Home Page Banner Slider
 document.addEventListener("DOMContentLoaded", function () {
@@ -78,36 +143,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-let slideImgBox = document.querySelectorAll(".slide-image");
-let slideImg = document.querySelectorAll(".slide-image img");
+// let slideImgBox = document.querySelectorAll(".slide-image");
+// let slideImg = document.querySelectorAll(".slide-image img");
 
-slideImgBox.forEach((box) => {
-  box.addEventListener("mouseenter", () => {
-    slideImg.forEach((img) => {
-      img.style.filter = "grayscale(0)";
-    });
-  });
-});
+// slideImgBox.forEach((box) => {
+//   box.addEventListener("mouseenter", () => {
+//     slideImg.forEach((img) => {
+//       // img.style.filter = "grayscale(0)";
+//     });
+//   });
+// });
 
-slideImgBox.forEach((box) => {
-  box.addEventListener("mouseleave", () => {
-    slideImg.forEach((img) => {
-      img.style.filter = "grayscale(100%)";
-    });
-  });
-});
+// slideImgBox.forEach((box) => {
+//   box.addEventListener("mouseleave", () => {
+//     slideImg.forEach((img) => {
+//       // img.style.filter = "grayscale(100%)";
+//     });
+//   });
+// });
 
-document.querySelector(".slider-btn.next").addEventListener("mouseenter", () => {
-    slideImg.forEach((img) => {
-      img.style.filter = "grayscale(0)";
-    });
-  });
+// document.querySelector(".slider-btn.next").addEventListener("mouseenter", () => {
+//     slideImg.forEach((img) => {
+//       img.style.filter = "grayscale(0)";
+//     });
+//   });
 
-document.querySelector(".slider-btn.prev").addEventListener("mouseenter", () => {
-    slideImg.forEach((img) => {
-      img.style.filter = "grayscale(0)";
-    });
-  });
+// document.querySelector(".slider-btn.prev").addEventListener("mouseenter", () => {
+//     slideImg.forEach((img) => {
+//       img.style.filter = "grayscale(0)";
+//     });
+//   });
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
