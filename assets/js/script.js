@@ -16,6 +16,23 @@ document.querySelectorAll('.rounded-card').forEach((card, index) => {
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
+// Functionality For Product Page Cards Slider Hover
+document.querySelectorAll('.slider-container .card').forEach((card, index) => {
+  let img = card.querySelector('img');
+  let originalSrc = `assets/images/product-slider/product-slide-${index + 1}.jpg`;
+  let hoverSrc = `assets/images/product-slider/product-slide-${index + 1}-light.jpg`;
+
+  img.addEventListener('mouseenter', () => {
+      img.setAttribute('src', hoverSrc);
+  });
+
+  img.addEventListener('mouseleave', () => {
+      img.setAttribute('src', originalSrc);
+  });
+});
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
 
 // Functionality For Home Page Banner Slider
 document.addEventListener("DOMContentLoaded", function () {
