@@ -33,6 +33,11 @@ nav {
   color: #fff !important;
 }
 
+.navbar-nav .nav-link.active{
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
 /* Dropdown Styling */
 .navbar-nav .dropdown-menu {
   background-color: #000;
@@ -499,9 +504,10 @@ nav {
 .contact .contact-form{
   background-color: #000;
   position: absolute;
-  top: 15%;
-  padding: 3rem;
-  width: 45%;
+  top: 23%;
+  left: 15%;
+  padding: 2rem;
+  width: 35%;
   box-shadow: rgba(255, 255, 255, 0.5) 0px 3px 8px;
 }
 .contact .contact-form h5{
@@ -511,12 +517,12 @@ nav {
 .contact .contact-form h1{
   color: #f3f3f3;
   margin-top: 1.3rem;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
 .contact .contact-form .line{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .contact .contact-form form{
   display: flex;
@@ -528,7 +534,7 @@ nav {
   outline: none;
   background-color: #2e2e2e;
   color: #c7c7c7;
-  padding: 1rem;
+  padding: 0.7rem 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
@@ -554,8 +560,8 @@ nav {
   border: none;
   background-color: #dbdbdb;
   color: #000;
-  font-size: 1.3rem;
-  padding: 0.8rem 0;
+  font-size: 1.2rem;
+  padding: 0.6rem 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   transition: all 0.2s ease-in-out;

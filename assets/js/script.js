@@ -69,6 +69,7 @@ document.querySelectorAll('.banner-slider .slide-image').forEach((card, index) =
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
+
 // Functionality For Home Page About Image Hover
 document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
   let img = card.querySelector('img');
@@ -90,10 +91,10 @@ document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
 // Functionality For Home Page Contact Image Hover
 let contactBg = document.querySelector('.contact img');
 contactBg.addEventListener('mouseenter', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.png');
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.jpg');
 })
 contactBg.addEventListener('mouseleave', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1.png');
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1.jpg');
 })
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
@@ -240,4 +241,7 @@ window.addEventListener("scroll", () => {
 });
 
 // -----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
