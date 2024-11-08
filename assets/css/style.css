@@ -63,6 +63,12 @@ nav {
     display: block;
   }
 }
+
+@media screen and (max-width: 576px) {
+  nav {
+    z-index: 100 !important;
+  }
+}
 /* Navbar Ends Here */
 
 
@@ -169,6 +175,51 @@ nav {
     right: 4.5rem;
 }
 
+@media screen and (max-width: 576px) {
+  .banner-slider .slide{
+    flex-direction: column-reverse;
+    /* height: 85vh; */
+    padding: 0;
+}
+  .banner-slider .slide .slide-text{
+    width: 100%;
+    padding-right: 0;
+}
+.banner-slider .slide .slide-image{
+  width: 100%;
+}
+.banner-slider .slider-btn{
+  padding: 0.4rem 0.8rem;
+  font-size: 1.1rem;
+}
+.banner-slider .next{
+  top: 30.5%;
+}
+.banner-slider .prev{
+  top: 37.5%;
+  right: 2.3rem;
+}
+.banner-slider .slide .slide-text{
+  padding: 0.7rem;
+  height: 43vh;
+}
+.banner-slider .slide .slide-text h1{
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.banner-slider .slide .slide-text p{
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+}
+.banner-slider .slide .slide-text button{
+  padding: 0.4rem 0.8rem;
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+.banner-slider .slide .slide-text #contact-btn{
+  margin-left: 0.5rem;
+}
+}
 /* Banner Slider Section Ends Here */
 
 
@@ -224,6 +275,31 @@ nav {
     color: #c7c7c7;
 }
 
+@media screen and (max-width: 576px) {
+  .expertise{
+    padding: 2rem 0 0 0;
+}
+  .expertise-row{
+    flex-direction: column;
+}
+.expertise-row .expertise-card{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.expertise-row .expertise-card .card-left{
+  width: 25%;
+}
+.expertise-row .expertise-card .card-left i{
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.expertise-row .expertise-card .card-right h2{
+  font-size: 1rem;
+}
+.expertise-row .expertise-card .card-right a{
+  font-size: 0.85rem;
+}
+}
 /* Expertise Row Section Ends Here */
 
 
@@ -326,11 +402,47 @@ nav {
   color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-/* .about-content .content-text p:first-child{
-  margin-bottom: 1.5rem;
-  text-align: justify;
-  font-weight: 600;
-} */
+
+@media screen and (max-width: 576px) {
+  .about-us{
+    padding: 0rem 0 35rem 0;
+  }
+  .about-us .about-image{
+    width: 100%;
+  }
+  .about-content{
+    width: 95%;
+    top: 35%;
+    right: 2.5%;
+    padding: 0.5rem;
+  }
+  .about-content h5{
+    font-size: 1.6rem;
+  }
+  .about-content .line{
+    margin-top: 0.1rem;
+  }
+  .about-content p{
+    margin-top: 0.7rem;
+    font-size: 0.95rem;
+  }
+  .about-content .content-menu{
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  .about-content .content-menu .menu{
+    width: 32.3%;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  .about-content .content-text{
+    padding: 0.5rem 0.7rem;
+    min-height: 19rem;
+  }
+  .about-content .content-text p{
+    font-size: 0.82rem;
+  }
+}
 
 /* About Us Section Ends Here */
 
@@ -396,6 +508,32 @@ nav {
    font-size: 1.2rem;
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+  .services{
+    padding: 2rem 0.7rem;
+}
+.services h1{
+  font-size: 1.3rem;
+}
+.services h2{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.line{
+  width: 3rem;
+  margin-top: 0.35rem;
+}
+.services-cards-row{
+  margin-top: 2.5rem;
+  flex-direction: column;
+}
+.services-cards-row .card{
+  width: 100%;
+  margin-bottom: 1rem;
+}
 }
 /* Services Section Ends Here */
 
@@ -490,12 +628,53 @@ nav {
 .expert-card-row .expert-card a:hover{
   color: #dbdbdb;
 }
+
+@media screen and (max-width: 576px) {
+  .work-with-experts{
+    padding: 2rem 0 0 0;
+  }
+  .work-with-experts .head h1{
+    font-size: 1.3rem;
+  }
+  .work-with-experts .head h2{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+  
+  .expert-card-row{
+    flex-direction: column;
+    margin-top: 4.5rem;
+  }
+  .expert-card-row .expert-card{
+    margin-bottom: 3.2rem;
+    padding: 2.6rem 1rem 2rem 1rem;
+    width: 100%;
+  }
+  .expert-card-row .expert-card .card-count{
+    padding: 0.8rem 0.9rem 0.4rem 0.9rem;
+    top: -1.9rem;
+  }
+  .expert-card-row .expert-card .card-count h1{
+    font-size: 1.5rem;
+  }
+  .expert-card-row .expert-card h2{
+    font-size: 1.2rem;
+  }
+  .expert-card-row .expert-card p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  .expert-card-row .expert-card a{
+    font-size: 0.8rem;
+  }
+}
 /* Work with the experts Section Ends Here */
 
 
 /* Contact Section Starts Here */
 .contact{
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 .contact img{
@@ -569,6 +748,40 @@ nav {
 .contact .contact-form form button:hover{ 
   background-color: #a9a9a9;
 }
+
+@media screen and (max-width: 576px) {
+  .contact .contact-form{
+    top: 78%;
+    left: 2.5%;
+    padding: 1rem 0.7rem;
+    width: 95%;
+    border-radius: 6px;
+  }
+  .contact .contact-form h5{
+    font-size: 1rem;
+  }
+  .contact .contact-form h1{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .contact .contact-form .line{
+    margin-top: 0.7rem;
+  }
+  .contact .contact-form form{
+    margin-top: 1.5rem;
+  }
+  .contact .contact-form form input, textarea{ 
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .contact .contact-form form button{ 
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.6rem 0;
+    border-radius: 5px;
+  }
+}
 /* Contact Section Ends Here */
 
 
@@ -603,5 +816,13 @@ nav {
   color: #000;
 }
 /* Back to Top Section */
+
+/* Footer Starts Here */
+@media screen and (max-width: 576px) {
+  footer{
+    margin-top: 25rem;
+  }
+}
+/* Footer Ends Here */
 
 
