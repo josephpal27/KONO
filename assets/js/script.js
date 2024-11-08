@@ -2,8 +2,8 @@
 // Functionality For Product Page Rounded Cards Hover
 document.querySelectorAll('.rounded-card').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1}.jpg`;
-  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1}-light.jpg`;
+  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1}.webp`;
+  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);
@@ -19,8 +19,8 @@ document.querySelectorAll('.rounded-card').forEach((card, index) => {
 // Functionality For Product Page Cards Slider Hover
 document.querySelectorAll('.slider-container .card').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/product-slider/product-slide-${index + 1}.jpg`;
-  let hoverSrc = `assets/images/product-slider/product-slide-${index + 1}-light.jpg`;
+  let originalSrc = `assets/images/product-slider/product-slide-${index + 1}.webp`;
+  let hoverSrc = `assets/images/product-slider/product-slide-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);
@@ -36,8 +36,8 @@ document.querySelectorAll('.slider-container .card').forEach((card, index) => {
 // Functionality For Home Page Service Cards Slider Hover
 document.querySelectorAll('.services-cards-row .card').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/services-cards/service-card-${index + 1}.jpg`;
-  let hoverSrc = `assets/images/services-cards/service-card-${index + 1}-light.jpg`;
+  let originalSrc = `assets/images/services-cards/service-card-${index + 1}.webp`;
+  let hoverSrc = `assets/images/services-cards/service-card-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);
@@ -55,8 +55,8 @@ document.querySelectorAll('.services-cards-row .card').forEach((card, index) => 
 // Functionality For Home Page Banner Image Hover
 document.querySelectorAll('.banner-slider .slide-image').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/slider/banner-${index + 1}.jpg`;
-  let hoverSrc = `assets/images/slider/banner-${index + 1}-light.jpg`;
+  let originalSrc = `assets/images/slider/banner-${index + 1}.webp`;
+  let hoverSrc = `assets/images/slider/banner-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);
@@ -73,8 +73,8 @@ document.querySelectorAll('.banner-slider .slide-image').forEach((card, index) =
 // Functionality For Home Page About Image Hover
 document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/about-${index + 1}.jpg`;
-  let hoverSrc = `assets/images/about-${index + 1}-light.jpg`;
+  let originalSrc = `assets/images/about-${index + 1}.webp`;
+  let hoverSrc = `assets/images/about-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);
@@ -91,10 +91,10 @@ document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
 // Functionality For Home Page Contact Image Hover
 let contactBg = document.querySelector('.contact img');
 contactBg.addEventListener('mouseenter', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.jpg');
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.webp');
 })
 contactBg.addEventListener('mouseleave', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1.jpg');
+  contactBg.setAttribute('src', 'assets/images/contact-bg-1.webp');
 })
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
