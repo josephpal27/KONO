@@ -16,9 +16,11 @@
     width: 100%;
     height: 100vh;
 }
-.swiper-slide{
+
+.swiper-slide {
     overflow: hidden;
 }
+
 .swiper-pagination {
     margin-right: 1rem;
 }
@@ -28,10 +30,12 @@
     background-color: rgb(199, 199, 199);
     opacity: 1;
 }
+
 .swiper-pagination-bullet-active {
     /* background-color: rgb(66, 66, 66); */
     background-color: rgb(66, 66, 66);
 }
+
 /* Swipper Slides Connfig Ends */
 
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
@@ -55,7 +59,7 @@ nav {
     color: #ebebeb !important;
 }
 
-.navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active {
     color: #fff !important;
     font-weight: 700 !important;
 }
@@ -78,22 +82,17 @@ nav {
     background-color: #222;
 }
 
-/* Nav Menu Hover Function */
-@media screen and (min-width: 992px) {
-    .navbar-nav .dropdown-menu {
-        display: none;
-        margin-top: 1px;
-    }
-
-    .navbar-nav .nav-link:hover~.dropdown-menu {
-        display: block;
-    }
-
-    .navbar-nav .dropdown-menu:hover {
-        display: block;
+/* Responsive rule for screens under 576px */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        text-align: center;
+        margin-top: 0.5rem;
+        border-radius: 8px !important;
+        padding: 0.5rem 0 !important;
     }
 }
-
 /* Navbar Ends Here */
 
 
@@ -102,7 +101,8 @@ nav {
     width: 100%;
     overflow: hidden;
 }
-.banner img{
+
+.banner img {
     width: 100%;
 }
 
@@ -110,12 +110,13 @@ nav {
 
 
 /*  Rounded Cards Section Starts Here */
-.rounded-cards-bg{
+.rounded-cards-bg {
     padding: 3.5rem 0;
     background-color: #2a2a2a;
     overflow: hidden;
 }
-.rounded-cards h5{
+
+.rounded-cards h5 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 1.6rem;
@@ -123,7 +124,8 @@ nav {
     font-style: italic;
     color: rgb(230, 61, 0);
 }
-.rounded-cards h1{
+
+.rounded-cards h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
@@ -131,73 +133,87 @@ nav {
     margin-top: 1.5rem;
     color: #fff;
 }
-.rounded-cards .cards-row{
+
+.rounded-cards .cards-row {
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
 }
-.rounded-cards .cards-row .rounded-card{
+
+.rounded-cards .cards-row .rounded-card {
     width: 24%;
     overflow: hidden;
 }
-.rounded-cards .cards-row .rounded-card .card-img{
+
+.rounded-cards .cards-row .rounded-card .card-img {
     border-radius: 50%;
     overflow: hidden;
 }
-.rounded-cards .cards-row .rounded-card img{
+
+.rounded-cards .cards-row .rounded-card img {
     width: 100%;
     border-radius: 50%;
     border: 1.3rem solid #fff;
     transition: all 0.5s ease;
 }
-.rounded-cards .cards-row .rounded-card img:hover{
+
+.rounded-cards .cards-row .rounded-card img:hover {
     scale: 1.07;
 }
-.rounded-cards .cards-row .rounded-card .card-desc{
+
+.rounded-cards .cards-row .rounded-card .card-desc {
     margin-top: 2rem;
     text-align: center;
 }
-.rounded-cards .cards-row .rounded-card .card-desc h3{
+
+.rounded-cards .cards-row .rounded-card .card-desc h3 {
     font-size: 1.4rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #fff;
 }
-.rounded-cards .cards-row .rounded-card .card-desc p{
+
+.rounded-cards .cards-row .rounded-card .card-desc p {
     font-size: 1.05rem;
     margin-top: 0.8rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #bab9b9;
 }
+
 /*  Rounded Cards Section Ends Here */
 
 
 /* Gallery Section Starts Here */
-.gallery{
+.gallery {
     width: 100%;
     display: flex;
     overflow: hidden;
 }
-.gallery-left{
+
+.gallery-left {
     width: 50%;
     overflow: hidden;
 }
+
 .gallery-left-top,
-.gallery-left-bottom{
+.gallery-left-bottom {
     display: flex;
     overflow: hidden;
 }
+
 .gallery-left-top .top-left,
 .gallery-left-top .top-right,
 .gallery-left-bottom .bottom-left,
-.gallery-left-bottom .bottom-right{
+.gallery-left-bottom .bottom-right {
     width: 50%;
 }
-.gallery-left img{
+
+.gallery-left img {
     width: 100%;
 }
-.gallery-left-top .top-right{
+
+.gallery-left-top .top-right {
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -205,7 +221,8 @@ nav {
     justify-content: center;
     color: #fff;
 }
-.gallery-left-bottom .bottom-left{
+
+.gallery-left-bottom .bottom-left {
     background-color: #98c396;
     display: flex;
     flex-direction: column;
@@ -213,29 +230,34 @@ nav {
     justify-content: center;
     color: #fff;
 }
+
 .gallery-left-top .top-right h5,
-.gallery-left-bottom .bottom-left h5{
+.gallery-left-bottom .bottom-left h5 {
     font-size: 1.4rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
+
 .gallery-left-top .top-right h1,
-.gallery-left-bottom .bottom-left h1{
+.gallery-left-bottom .bottom-left h1 {
     font-size: 3rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center;
     margin: 0.5rem 0 1rem 0;
 }
-.gallery-right{
+
+.gallery-right {
     width: 50%;
     position: relative;
     overflow: hidden;
 }
-.gallery-right img{
+
+.gallery-right img {
     width: 100%;
     height: 100vh;
 }
+
 /* .gallery-right-text{
     position: absolute;
     top: 0;
@@ -260,7 +282,7 @@ nav {
     font-weight: 500;
     margin-top: 1.5rem;
 } */
-.gallery button{
+.gallery button {
     background-color: transparent;
     border: 2px solid #fff;
     color: #fff;
@@ -270,10 +292,12 @@ nav {
     margin-top: 1.5rem;
     transition: all 0.5s ease;
 }
-.gallery button:hover{
+
+.gallery button:hover {
     background-color: #fff;
     color: #000;
 }
+
 /* Gallery Section Ends Here */
 
 
@@ -287,9 +311,11 @@ nav {
     padding: 10vh 0;
     position: relative;
 }
+
 .slick-slide {
     margin: 0 15px;
 }
+
 .card-slider .card {
     text-align: center;
     border: none;
@@ -297,7 +323,8 @@ nav {
     padding-bottom: 2.2rem;
     height: 80vh;
 }
-.slick-prev, 
+
+.slick-prev,
 .slick-next {
     color: #fff !important;
     border: none;
@@ -312,6 +339,7 @@ nav {
     justify-content: center;
     transform: translateY(600%);
 }
+
 .slick-prev {
     left: 47%;
 }
@@ -319,6 +347,7 @@ nav {
 .slick-next {
     right: 47%;
 }
+
 /* .slick-prev:hover, .slick-next:hover {
     background-color: #595959 !important;
 } */
@@ -326,8 +355,184 @@ nav {
     width: 100%;
     transition: all 0.5s ease;
 }
-.card-slider .card:hover img{
+
+.card-slider .card:hover img {
     scale: 1.15;
 }
 
 /* Slide 4 Ends*/
+
+
+
+
+
+
+/* Media For Mobile Screen Starts Here */
+@media screen and (min-width: 576px) {
+    .mobile-site {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .swiper {
+        display: none;
+    }
+
+    .mobile-site {
+        z-index: 100;
+    }
+
+    /* Navbar Media Starts */
+    nav {
+        padding: 0.6rem 0 !important;
+    }
+
+    /* Navbar Media Ends */
+
+    /* Rounded Cards Media Starts */
+    .rounded-cards-bg {
+        padding: 2rem 0;
+    }
+
+    .rounded-cards h5 {
+        font-size: 1.3rem;
+    }
+
+    .rounded-cards h1 {
+        font-size: 1.6rem;
+        margin-top: 0.5rem;
+    }
+
+    .rounded-cards .cards-row {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .rounded-cards .cards-row .rounded-card {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 0.8rem;
+    }
+
+    .rounded-cards .cards-row .rounded-card img {
+        border: 0.8rem solid #fff;
+    }
+
+    .rounded-cards .cards-row .rounded-card .card-desc {
+        margin-top: 1rem;
+    }
+
+    .rounded-cards .cards-row .rounded-card .card-desc h3 {
+        font-size: 1.2rem;
+    }
+
+    .rounded-cards .cards-row .rounded-card .card-desc p {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+
+    /* Rounded Cards Media Ends */
+
+    /* Gallery Section Media Starts */
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery-left {
+        width: 100%;
+    }
+
+    .gallery-right {
+        width: 100%;
+    }
+
+    .gallery-left-top {
+        flex-direction: column;
+    }
+
+    .gallery-left-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .gallery-left-top .top-left,
+    .gallery-left-top .top-right,
+    .gallery-left-bottom .bottom-left,
+    .gallery-left-bottom .bottom-right {
+        width: 100%;
+    }
+
+    .gallery-left-top .top-right,
+    .gallery-left-bottom .bottom-left {
+        padding: 2rem 0;
+    }
+
+    .gallery-left-top .top-right h5,
+    .gallery-left-bottom .bottom-left h5 {
+        font-size: 1rem;
+    }
+
+    .gallery-left-top .top-right h1,
+    .gallery-left-bottom .bottom-left h1 {
+        font-size: 2rem;
+        margin: 0.2rem 0 0.8rem 0;
+    }
+
+    .gallery button {
+        padding: 0.2rem 1rem 0.3rem 1rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* Gallery Section Media Ends */
+
+    /* Slider Section Media Starts */
+    .slider-container {
+        background-color: #000;
+        overflow: hidden;
+    }
+
+    .slider-container {
+        padding: 22.5vh 0;
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .card-slider .card {
+        text-align: center;
+        border: none;
+        overflow: hidden;
+        padding-bottom: 0;
+        height: 55vh;
+    }
+
+    .slick-prev,
+    .slick-next {
+        color: #fff !important;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(480%);
+    }
+
+    .slick-prev {
+        left: 39%;
+    }
+
+    .slick-next {
+        right: 39%;
+    }
+
+    /* Slider Section Media Ends */
+}
+
+/* Media For Mobile Screen Ends Here */

@@ -51,7 +51,7 @@ nav {
 }
 
 /* Nav Menu Hover Function */
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .navbar-nav .dropdown-menu {
     display: none;
     margin-top: 1px;
@@ -62,12 +62,16 @@ nav {
   .navbar-nav .dropdown-menu:hover {
     display: block;
   }
-}
+} */
 
 @media screen and (max-width: 576px) {
   nav {
     z-index: 100 !important;
+    padding: 0.7rem 0 !important;
   }
+  .navbar-collapse {
+    text-align: center;
+}
 }
 /* Navbar Ends Here */
 
@@ -814,6 +818,21 @@ nav {
 .back-to-top i:hover{
   background-color: #ffffff;
   color: #000;
+}
+
+@media screen and (max-width: 576px) {
+  .back-to-top{
+    right: 0.5rem;
+  }
+  .back-to-top i{
+    font-size: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 4px;
+  }
+  .back-to-top.show {
+    bottom: 0.5rem;
+  }
 }
 /* Back to Top Section */
 

@@ -78,22 +78,21 @@ nav {
     background-color: #222;
 }
 
-/* Nav Menu Hover Function */
-@media screen and (min-width: 992px) {
-    .navbar-nav .dropdown-menu {
-        display: none;
-        margin-top: 1px;
-    }
+/* .bg-blur{
+    backdrop-filter: blur(10px);
+} */
 
-    .navbar-nav .nav-link:hover~.dropdown-menu {
-        display: block;
-    }
-
-    .navbar-nav .dropdown-menu:hover {
-        display: block;
+/* Responsive rule for screens under 576px */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        text-align: center;
+        margin-top: 0.5rem;
+        border-radius: 7px !important;
+        padding: 0.5rem 0 !important;
     }
 }
-
 /* Navbar Ends Here */
 
 
@@ -242,3 +241,96 @@ nav {
 /* Contact Boxes End */
 
 /* Slide 3 Ends */
+
+
+
+
+
+
+/* Media For Mobile Screen Starts Here */
+@media screen and (min-width: 576px) {
+    .mobile-site {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .swiper {
+        display: none;
+    }
+
+    .mobile-site {
+        z-index: 100;
+    }
+
+    /* Navbar Media Starts */
+    nav {
+        padding: 0.6rem 0 !important;
+        /* backdrop-filter: blur(10px); */
+    }
+    /* Navbar Media Ends */
+
+    /* Contact Box Media Starts */
+    .contact-box{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .contact-map{
+        width: 100%;
+        height: 50vh;
+        border-radius: 0;
+    }
+    .contact-form{
+        width: 100%;
+        padding: 2rem 1rem;
+        border-radius: 0;
+    }
+    .contact-form input{
+        margin-bottom: 0.6rem;
+        padding: 0.7rem 0.8rem 0.8rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .contact-form textarea{
+        padding: 0.7rem 0.8rem 0.7rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .contact-form button{
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    /* Contact Box Media Ends */
+
+    /* Small Contact Boxes Start Here */
+    .contact-cards{
+        padding: 1.2rem 0.7rem 0 0.7rem;
+        flex-direction: column;
+        background-color: #000;
+    }
+    .contact-cards .contact-card{
+        padding: 1rem 0.7rem;
+        width: 100%;
+        margin-bottom: 0.7rem;
+     }
+     .contact-cards .contact-card-icon{
+        width: 25%;
+     }
+     .contact-cards .contact-card-icon i{
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+     }
+     .contact-cards .contact-card-desc{
+        width: 75%;
+     }
+     .contact-cards .contact-card-desc p{
+        font-size: 1rem;
+     }
+     .contact-cards .contact-card-desc h5{
+        font-size: 1.1rem;
+     }
+    /* Small Contact Boxes End Here */
+}
+
+/* Media For Mobile Screen Ends Here */
