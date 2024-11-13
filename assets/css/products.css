@@ -174,7 +174,7 @@ nav {
 }
 
 .rounded-cards .cards-row .rounded-card .card-desc p {
-    font-size: 1.05rem;
+    font-size: 0.8rem;
     margin-top: 0.8rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -220,6 +220,7 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
+    padding: 0 1rem;
 }
 
 .gallery-left-bottom .bottom-left {
@@ -229,22 +230,24 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
+    padding: 0 1rem;
 }
 
 .gallery-left-top .top-right h5,
 .gallery-left-bottom .bottom-left h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 
 .gallery-left-top .top-right h1,
 .gallery-left-bottom .bottom-left h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center;
-    margin: 0.5rem 0 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .gallery-right {
@@ -410,8 +413,8 @@ nav {
     }
 
     .rounded-cards .cards-row .rounded-card {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         margin-bottom: 0.8rem;
     }
 
@@ -428,7 +431,7 @@ nav {
     }
 
     .rounded-cards .cards-row .rounded-card .card-desc p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-top: 0.5rem;
     }
 
@@ -464,12 +467,12 @@ nav {
 
     .gallery-left-top .top-right,
     .gallery-left-bottom .bottom-left {
-        padding: 2rem 0;
+        padding: 5rem 1rem;
     }
 
     .gallery-left-top .top-right h5,
     .gallery-left-bottom .bottom-left h5 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .gallery-left-top .top-right h1,
