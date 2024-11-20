@@ -376,4 +376,10 @@ nav {
       }
 }
 
+@media screen and (max-width: 576px) {
+    footer{
+        margin-top: -1rem;
+    }
+}
+
 /* Media For Mobile Screen Ends Here */
