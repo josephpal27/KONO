@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentSlide = 1;
   const slides = document.querySelectorAll(".banner-slider .slide");
   const totalSlides = slides.length;
-  const intervalTime = 5000; // Time in milliseconds for automatic slide transition
+  const intervalTime = 8000; // Time in milliseconds for automatic slide transition
 
   function showSlide(slideNumber) {
     // Hide all slides

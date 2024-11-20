@@ -40,6 +40,8 @@ nav {
 .navbar-nav .nav-link.active{
   color: #fff !important;
   font-weight: 700 !important;
+  border: none;
+  outline: none;
 }
 
 /* Dropdown Styling */
@@ -52,6 +54,28 @@ nav {
 }
 .navbar-nav .dropdown-item:hover {
   background-color: #222;
+}
+
+/* Custom dropdown menu width */
+.custom-dropdown-menu {
+  width: 18rem !important; /* Set to your desired width */
+  margin-left: -5rem;
+}
+
+.custom-dropdown-menu input{
+  width: 100%;
+  color: #fff !important;
+  font-weight: 600 !important;
+  background-color: #2e2e2e;
+  border: none;
+  outline: none;
+}
+.custom-dropdown-menu button{
+  background-color: #c9c9c9;
+  font-weight: 600 !important;
+}
+.custom-dropdown-menu button:hover{
+  background-color: #d8d8d8;
 }
 
 /* Nav Menu Hover Function */
