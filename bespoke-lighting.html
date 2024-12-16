@@ -40,65 +40,73 @@
 
             <!-- Slide 1 -->
             <div class="swiper-slide slide1">
-               <!-- Navbar Starts Here -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-lg">
-      <!-- Logo Image on the left side -->
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/images/logo/logo.png" alt="Logo" width="100">
-      </a>
-  
-      <!-- Toggler button for mobile view -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
-        aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-light"></span>
-      </button>
-  
-      <!-- Dropdown menus on the right side -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="products.html">Products</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Catalogue
-              </a>
-              <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
-                <li class="px-3 py-3">
-                  <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
-                  <!-- Form -->
-                  <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
-                    <input type="hidden" name="access_key" value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
-                    <div class="mb-2">
-                      <input type="text" name="name" class="form-control-sm" id="name" placeholder="Name*" required>
+                <!-- Navbar Starts Here -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-lg">
+                        <!-- Logo Image on the left side -->
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="Logo" width="100">
+                        </a>
+
+                        <!-- Toggler button for mobile view -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarDropdowns" aria-controls="navbarDropdowns" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-light"></span>
+                        </button>
+
+                        <!-- Dropdown menus on the right side -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Products</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Catalogue
+                                    </a>
+                                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
+                                        <li class="px-3 py-3">
+                                            <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
+                                            <!-- Form -->
+                                            <form action="https://api.web3forms.com/submit" method="POST"
+                                                id="contactForm">
+                                                <input type="hidden" name="access_key"
+                                                    value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
+                                                <div class="mb-2">
+                                                    <input type="text" name="name" class="form-control-sm" id="name"
+                                                        placeholder="Name*" required>
+                                                </div>
+                                                <div class="mb-2">
+                                                    <input type="email" name="email" class="form-control-sm" id="email"
+                                                        placeholder="Email*" required>
+                                                </div>
+                                                <div class="mb-2">
+                                                    <input type="number" name="phone" class="form-control-sm" id="phone"
+                                                        placeholder="Phone No.*" required>
+                                                </div>
+                                                <button type="submit" class="btn btn-sm w-100 text-dark">View
+                                                    Catalogue</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
-                    <div class="mb-2">
-                      <input type="email" name="email" class="form-control-sm" id="email" placeholder="Email*" required>
-                    </div>
-                    <div class="mb-2">
-                      <input type="number" name="phone" class="form-control-sm" id="phone" placeholder="Phone No.*" required>
-                    </div>
-                    <button type="submit" class="btn btn-sm w-100 text-dark">View Catalogue</button>
-                  </form>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-        
-    </div>
-  </nav>
-  <!-- Navbar Ends Here -->
+                </nav>
+                <!-- Navbar Ends Here -->
 
                 <!-- Top Banner Section Starts Here -->
                 <section class="banner">
@@ -139,18 +147,19 @@
                             <!-- Card 1 -->
                             <div class="rounded-card web-rounded-card" id="rounded-card-1">
                                 <div class="card-img">
-                                    <img src="assets/images/rounded-cards/rounded-card-1.webp" alt="image">
+                                    <img src="assets/images/rounded-cards/bespoke/rounded-card-1.jpg" alt="image">
                                 </div>
                                 <div class="card-desc">
                                     <h3>Urban Illumination <br> (Sava)</h3>
-                                    <p>Efficient Sava street lights: sleek, powerful, and energy-saving for urban spaces.
+                                    <p>Efficient Sava street lights: sleek, powerful, and energy-saving
+                                        for urban spaces.
                                     </p>
                                 </div>
                             </div>
                             <!-- Card 2 -->
                             <div class="rounded-card web-rounded-card" id="rounded-card-2">
                                 <div class="card-img">
-                                    <img src="assets/images/rounded-cards/rounded-card-2.webp" alt="image">
+                                    <img src="assets/images/rounded-cards/bespoke/rounded-card-2.jpg" alt="image">
                                 </div>
                                 <div class="card-desc">
                                     <h3>Nile LED Luminaire <br> (Nile-4S)</h3>
@@ -160,7 +169,7 @@
                             <!-- Card 3 -->
                             <div class="rounded-card web-rounded-card" id="rounded-card-3">
                                 <div class="card-img">
-                                    <img src="assets/images/rounded-cards/rounded-card-3.webp" alt="image">
+                                    <img src="assets/images/rounded-cards/bespoke/rounded-card-3.jpg" alt="image">
                                 </div>
                                 <div class="card-desc">
                                     <h3>Pathway Illumination <br> (Aron)</h3>
@@ -170,11 +179,12 @@
                             <!-- Card 4 -->
                             <div class="rounded-card web-rounded-card" id="rounded-card-4">
                                 <div class="card-img">
-                                    <img src="assets/images/rounded-cards/rounded-card-4.webp" alt="image">
+                                    <img src="assets/images/rounded-cards/bespoke/rounded-card-4.jpg" alt="image">
                                 </div>
                                 <div class="card-desc">
                                     <h3>Brea LED Brick Lights <br> (Brea-C5)</h3>
-                                    <p>Brea-C5 brings elegance to walls and gardens with durable, efficient accent lighting.</p>
+                                    <p>Brea-C5 brings elegance to walls and gardens with durable, efficient
+                                        accent lighting.</p>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +207,8 @@
                             </div>
                             <div class="top-right">
                                 <!-- <h1>UPTO 70%</h1> -->
-                                <h5>Bring a magical glow to your surroundings with our premium outdoor lighting designs.</h5>
+                                <h5>Bring a magical glow to your surroundings with our premium outdoor lighting designs.
+                                </h5>
                                 <!-- <a href=""><button>SHOP NOW</button></a> -->
                             </div>
                         </div>
@@ -205,7 +216,8 @@
                         <div class="gallery-left-bottom web-gallery-left-bottom">
                             <div class="bottom-left">
                                 <!-- <h1>Stunning Sculptural Lights</h1> -->
-                                <h5>Transform your space with our exclusive collection of artistic light installations.</h5>
+                                <h5>Transform your space with our exclusive collection of artistic light installations.
+                                </h5>
                                 <!-- <a href=""><button>SHOP NOW</button></a> -->
                             </div>
                             <div class="bottom-right">
@@ -273,65 +285,71 @@
         <!-- Navbar Starts Here -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-lg">
-              <!-- Logo Image on the left side -->
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/logo.png" alt="Logo" width="100">
-              </a>
-          
-              <!-- Toggler button for mobile view -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
-                aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-light"></span>
-              </button>
-          
-              <!-- Dropdown menus on the right side -->
-              <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="index.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="products.html">Products</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Catalogue
-                      </a>
-                      <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
-                        <li class="px-3 py-3">
-                          <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
-                          <!-- Form -->
-                          <form action="https://api.web3forms.com/submit" method="POST" id="mobileContactForm">
-                            <input type="hidden" name="access_key" value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
-                            <div class="mb-2">
-                              <input type="text" name="name" class="form-control-sm" id="name" placeholder="Name*" required>
-                            </div>
-                            <div class="mb-2">
-                              <input type="email" name="email" class="form-control-sm" id="email" placeholder="Email*" required>
-                            </div>
-                            <div class="mb-2">
-                              <input type="number" name="phone" class="form-control-sm" id="phone" placeholder="Phone No.*" required>
-                            </div>
-                            <button type="submit" class="btn btn-sm w-100 text-dark">View Catalogue</button>
-                          </form>
+                <!-- Logo Image on the left side -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo/logo.png" alt="Logo" width="100">
+                </a>
+
+                <!-- Toggler button for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
+                    aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+
+                <!-- Dropdown menus on the right side -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
-                    </li>
-                  </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogue
+                            </a>
+                            <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
+                                <li class="px-3 py-3">
+                                    <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
+                                    <!-- Form -->
+                                    <form action="https://api.web3forms.com/submit" method="POST"
+                                        id="mobileContactForm">
+                                        <input type="hidden" name="access_key"
+                                            value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
+                                        <div class="mb-2">
+                                            <input type="text" name="name" class="form-control-sm" id="name"
+                                                placeholder="Name*" required>
+                                        </div>
+                                        <div class="mb-2">
+                                            <input type="email" name="email" class="form-control-sm" id="email"
+                                                placeholder="Email*" required>
+                                        </div>
+                                        <div class="mb-2">
+                                            <input type="number" name="phone" class="form-control-sm" id="phone"
+                                                placeholder="Phone No.*" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-sm w-100 text-dark">View Catalogue</button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
-                
+
             </div>
-          </nav>
+        </nav>
         <!-- Navbar Ends Here -->
 
-         <!-- Top Banner Section Starts Here -->
-         <section class="banner">
+        <!-- Top Banner Section Starts Here -->
+        <section class="banner">
             <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel"
                 data-bs-interval="2000">
                 <div class="carousel-inner">
@@ -544,14 +562,14 @@
                 pauseOnHover: false,
                 pauseOnFocus: false,
                 responsive: [
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,  // Show 1 card at a time on smaller screens
-                    slidesToScroll: 1  // Scroll 1 card on click
-                }
-            }
-        ]
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,  // Show 1 card at a time on smaller screens
+                            slidesToScroll: 1  // Scroll 1 card on click
+                        }
+                    }
+                ]
             });
         });
     </script>
@@ -637,21 +655,22 @@
     </script>
 
 
-<script>
-    $(document).ready(function () {
-         $('.navbar-toggler').on('click', function () {
-            if ($('.navbar-collapse').hasClass('show')) {
-            $('nav').removeClass('navbar-expanded');
-        } else {
-            $('nav').addClass('navbar-expanded');
-        }
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                if ($('.navbar-collapse').hasClass('show')) {
+                    $('nav').removeClass('navbar-expanded');
+                } else {
+                    $('nav').addClass('navbar-expanded');
+                }
+            });
         });
-    });
-</script>
+    </script>
 
     <!-- JS Link -->
     <script src="assets/js/catalouge.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/bespoke.js"></script>
 
 </body>
 
