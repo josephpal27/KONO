@@ -484,7 +484,7 @@ nav {
 
 /* Services Section Starts Here */
 .services{
-    padding: 5rem 0 7rem 0;
+    padding: 3rem 0 6rem 0;
     overflow: hidden;
 }
 .services .head{
@@ -500,20 +500,19 @@ nav {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 2.4rem;
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
     font-weight: 600;
 }
 .line{
     width: 4rem;
     height: 2px;
     background-color: #5d5d5d;
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .services-cards-row{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 3rem;
+    overflow: hidden;
 }
 .services-cards-row .card{
     border-radius: 0;
@@ -529,11 +528,13 @@ nav {
 .services-cards-row .card img{
     width: 100%;
     transition: all 0.3s ease-in-out;
-    /* filter: grayscale(100%); */
 }
 .services-cards-row .card img:hover{
     scale: 1.1;
-    /* filter: grayscale(0); */
+}
+.services-cards-row .card a{
+    text-decoration: none;
+    color: #1e1e1e;
 }
 .services-cards-row .card .bottom{
     padding: 1.5rem 0.5rem 1.2rem 0.5rem;
@@ -544,6 +545,38 @@ nav {
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.671);
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 17px;
+  font-weight: 600;
+}
+.swiper-button-prev {
+  left: 20px;
+}
+.swiper-button-next {
+  right: 20px;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgb(212, 212, 212);
+}
+
 
 @media screen and (max-width: 576px) {
   .services{
