@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flood Light - KONO Lighting</title>
+    <link rel="shortcut icon" href="assets/images/logo/fav.png" type="image/x-icon">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link to Swipper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.css" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+</head>
+
+<body>
+
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide slide1">
+               <!-- Navbar Starts Here -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-lg">
+      <!-- Logo Image on the left side -->
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo/logo.png" alt="Logo" width="100">
+      </a>
+  
+      <!-- Toggler button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
+        aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+  
+      <!-- Dropdown menus on the right side -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catalogue
+              </a>
+              <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
+                <li class="px-3 py-3">
+                  <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
+                  <!-- Form -->
+                  <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                    <input type="hidden" name="access_key" value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
+                    <div class="mb-2">
+                      <input type="text" name="name" class="form-control-sm" id="name" placeholder="Name*" required>
+                    </div>
+                    <div class="mb-2">
+                      <input type="email" name="email" class="form-control-sm" id="email" placeholder="Email*" required>
+                    </div>
+                    <div class="mb-2">
+                      <input type="number" name="phone" class="form-control-sm" id="phone" placeholder="Phone No.*" required>
+                    </div>
+                    <button type="submit" class="btn btn-sm w-100 text-dark">View Catalogue</button>
+                  </form>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        
+    </div>
+  </nav>
+  <!-- Navbar Ends Here -->
+
+                <!-- Top Banner Section Starts Here -->
+                <section class="banner">
+                    <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                        data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/product-banner-3.webp" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product-banner.webp" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product-banner-2.webp" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product-banner-4.webp" class="d-block w-100" alt="image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product-banner-5.webp" class="d-block w-100" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Top Banner Section Ends Here -->
+            </div>
+
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide slide2">
+                <!-- Rounded Cards Section Starts Here -->
+                <section class="rounded-cards-bg">
+                    <div class="rounded-cards container-lg">
+                        <h5>Our Expertise in Lighting Solutions</h5>
+                        <h1>Illuminating Spaces with Innovation</h1>
+
+                        <div class="cards-row">
+                            <!-- Card 1 -->
+                            <div class="rounded-card web-rounded-card" id="rounded-card-1">
+                                <div class="card-img">
+                                    <img src="assets/images/rounded-cards/rounded-card-1.webp" alt="image">
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Urban Illumination <br> (Sava)</h3>
+                                    <p>Efficient Sava street lights: sleek, powerful, and energy-saving for urban spaces.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="rounded-card web-rounded-card" id="rounded-card-2">
+                                <div class="card-img">
+                                    <img src="assets/images/rounded-cards/rounded-card-2.webp" alt="image">
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Nile LED Luminaire <br> (Nile-4S)</h3>
+                                    <p>Versatile and modern, Nile-4S delivers superior lighting indoors and out.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="rounded-card web-rounded-card" id="rounded-card-3">
+                                <div class="card-img">
+                                    <img src="assets/images/rounded-cards/rounded-card-3.webp" alt="image">
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Pathway Illumination <br> (Aron)</h3>
+                                    <p>Aron lights enhance pathways with modular design for safety and style.</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="rounded-card web-rounded-card" id="rounded-card-4">
+                                <div class="card-img">
+                                    <img src="assets/images/rounded-cards/rounded-card-4.webp" alt="image">
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Brea LED Brick Lights <br> (Brea-C5)</h3>
+                                    <p>Brea-C5 brings elegance to walls and gardens with durable, efficient accent lighting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Rounded Cards Section Ends Here -->
+            </div>
+
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide slide3">
+                <!-- Gallery Section Starts Here -->
+                <section class="gallery">
+                    <!-- Left -->
+                    <div class="gallery-left">
+                        <!-- Top -->
+                        <div class="gallery-left-top web-gallery-left-top">
+                            <div class="top-left">
+                                <img src="assets/images/gallery-lamp-1.webp" alt="image">
+                            </div>
+                            <div class="top-right">
+                                <!-- <h1>UPTO 70%</h1> -->
+                                <h5>Bring a magical glow to your surroundings with our premium outdoor lighting designs.</h5>
+                                <!-- <a href=""><button>SHOP NOW</button></a> -->
+                            </div>
+                        </div>
+                        <!-- Bottom -->
+                        <div class="gallery-left-bottom web-gallery-left-bottom">
+                            <div class="bottom-left">
+                                <!-- <h1>Stunning Sculptural Lights</h1> -->
+                                <h5>Transform your space with our exclusive collection of artistic light installations.</h5>
+                                <!-- <a href=""><button>SHOP NOW</button></a> -->
+                            </div>
+                            <div class="bottom-right">
+                                <img src="assets/images/gallery-lamp-2.webp" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right -->
+                    <div class="gallery-right web-gallery-right">
+                        <img src="assets/images/gallery-lamp-3.webp" alt="image">
+                        <!-- <div class="gallery-right-text">
+                            <h1>Decoration Light in Dark Night</h1>
+                            <p>Sed libero enim sed faucibus turpis in eu. Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit pellue habita</p>
+                            <a href=""><button>SHOP NOW</button></a>
+                        </div> -->
+                    </div>
+                </section>
+                <!-- Gallery Section Ends Here -->
+            </div>
+
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide slide4">
+
+                <!-- Slider Section Starts Here -->
+                <div class="slider-container web-slider-container">
+                    <div class="card-slider">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <img src="assets/images/product-slider/product-slide-1.webp" alt="Card-Image">
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <img src="assets/images/product-slider/product-slide-2.webp" alt="Card-Image">
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <img src="assets/images/product-slider/product-slide-3.webp" alt="Card-Image">
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <img src="assets/images/product-slider/product-slide-4.webp" alt="Card-Image">
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="card">
+                            <img src="assets/images/product-slider/product-slide-5.webp" alt="Card-Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Section Ends Here -->
+            </div>
+
+        </div>
+
+
+        <!-- Optional Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Mobile Site Starts Here -->
+    <section class="mobile-site">
+        <!-- Navbar Starts Here -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-lg">
+              <!-- Logo Image on the left side -->
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="Logo" width="100">
+              </a>
+          
+              <!-- Toggler button for mobile view -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
+                aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+              </button>
+          
+              <!-- Dropdown menus on the right side -->
+              <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catalogue
+                      </a>
+                      <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
+                        <li class="px-3 py-3">
+                          <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
+                          <!-- Form -->
+                          <form action="https://api.web3forms.com/submit" method="POST" id="mobileContactForm">
+                            <input type="hidden" name="access_key" value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
+                            <div class="mb-2">
+                              <input type="text" name="name" class="form-control-sm" id="name" placeholder="Name*" required>
+                            </div>
+                            <div class="mb-2">
+                              <input type="email" name="email" class="form-control-sm" id="email" placeholder="Email*" required>
+                            </div>
+                            <div class="mb-2">
+                              <input type="number" name="phone" class="form-control-sm" id="phone" placeholder="Phone No.*" required>
+                            </div>
+                            <button type="submit" class="btn btn-sm w-100 text-dark">View Catalogue</button>
+                          </form>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                
+            </div>
+          </nav>
+        <!-- Navbar Ends Here -->
+
+         <!-- Top Banner Section Starts Here -->
+         <section class="banner">
+            <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/product-banner-3.webp" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/product-banner.webp" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/product-banner-2.webp" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/product-banner-4.webp" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/product-banner-5.webp" class="d-block w-100" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Top Banner Section Ends Here -->
+
+        <!-- Rounded Cards Section Starts Here -->
+        <section class="rounded-cards-bg">
+            <div class="rounded-cards container-lg">
+                <h5>Our Expertise in Lighting Solutions</h5>
+                <h1>Illuminating Spaces with Innovation</h1>
+
+                <div class="cards-row">
+                    <!-- Card 1 -->
+                    <div class="rounded-card mobile-rounded-card" id="rounded-card-1">
+                        <div class="card-img">
+                            <img src="assets/images/rounded-cards/rounded-card-1.webp" alt="image">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Urban Illumination <br> (Sava)</h3>
+                            <p>Efficient Sava street lights: sleek, powerful, and energy-saving for urban spaces.</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="rounded-card mobile-rounded-card" id="rounded-card-2">
+                        <div class="card-img">
+                            <img src="assets/images/rounded-cards/rounded-card-2.webp" alt="image">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Nile LED Luminaire <br> (Nile-4S)</h3>
+                            <p>Versatile and modern, Nile-4S delivers superior lighting indoors and out.</p>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="rounded-card mobile-rounded-card" id="rounded-card-3">
+                        <div class="card-img">
+                            <img src="assets/images/rounded-cards/rounded-card-3.webp" alt="image">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Pathway Illumination <br> (Aron)</h3>
+                            <p>Aron lights enhance pathways with modular design for safety and style.</p>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="rounded-card mobile-rounded-card" id="rounded-card-4">
+                        <div class="card-img">
+                            <img src="assets/images/rounded-cards/rounded-card-4.webp" alt="image">
+                        </div>
+                        <div class="card-desc">
+                            <h3>Brea LED Brick Lights <br> (Brea-C5)</h3>
+                            <p>Modern designs fit any decor style, making it a versatile feature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Rounded Cards Section Ends Here -->
+
+        <!-- Gallery Section Starts Here -->
+        <section class="gallery">
+            <!-- Left -->
+            <div class="gallery-left">
+                <!-- Top -->
+                <div class="gallery-left-top mobile-gallery-left-top">
+                    <div class="top-left">
+                        <img src="assets/images/gallery-lamp-1.webp" alt="image">
+                    </div>
+                    <div class="top-right">
+                        <h5>Bring a magical glow to your surroundings with our premium outdoor lighting designs.</h5>
+                    </div>
+                </div>
+                <!-- Bottom -->
+                <div class="gallery-left-bottom mobile-gallery-left-bottom">
+                    <div class="bottom-left">
+                        <h5>Transform your space with our exclusive collection of artistic light installations.</h5>
+                    </div>
+                    <div class="bottom-right">
+                        <img src="assets/images/gallery-lamp-2.webp" alt="image">
+                    </div>
+                </div>
+            </div>
+            <!-- Right -->
+            <div class="gallery-right mobile-gallery-right">
+                <img src="assets/images/gallery-lamp-3.webp" alt="image">
+            </div>
+        </section>
+        <!-- Gallery Section Ends Here -->
+
+        <!-- Slider Section Starts Here -->
+        <div class="slider-container mobile-slider-container">
+            <div class="card-slider">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="assets/images/product-slider/product-slide-1.webp" alt="Card-Image">
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="assets/images/product-slider/product-slide-2.webp" alt="Card-Image">
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="assets/images/product-slider/product-slide-3.webp" alt="Card-Image">
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <img src="assets/images/product-slider/product-slide-4.webp" alt="Card-Image">
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <img src="assets/images/product-slider/product-slide-5.webp" alt="Card-Image">
+                </div>
+            </div>
+        </div>
+        <!-- Slider Section Ends Here -->
+
+    </section>
+    <!-- Mobile Site Ends Here -->
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'vertical', // Enable vertical direction
+            slidesPerView: 1, // Show 1 item at a time
+            // spaceBetween: 10, // Space between slides
+            speed: 750, // speed in ms
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Disable mousewheel control from Swiper
+            mousewheel: false,
+        });
+
+        let scrollAmount = 0;
+        const SCROLL_THRESHOLD = 150; // Set threshold for scroll amount
+        let isScrolling = false;
+
+        window.addEventListener('wheel', (event) => {
+            if (!isScrolling) {
+                scrollAmount += event.deltaY;
+
+                if (Math.abs(scrollAmount) >= SCROLL_THRESHOLD) {
+                    if (scrollAmount > 0) {
+                        swiper.slideNext(); // Scroll down
+                    } else {
+                        swiper.slidePrev(); // Scroll up
+                    }
+
+                    // Reset scroll amount after slide change
+                    scrollAmount = 0;
+
+                    // Prevent multiple slide changes from a single heavy scroll
+                    isScrolling = true;
+                    setTimeout(() => {
+                        isScrolling = false;
+                    }, 500); // Adjust this delay to control slide frequency
+                }
+
+                // Prevent default scroll behavior
+                event.preventDefault();
+            }
+        }, { passive: false });
+    </script>
+
+
+    <!-- jQuery and Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.card-slider').slick({
+                slidesToShow: 3,  // Show 3 cards at a time
+                slidesToScroll: 1,  // Scroll 1 card on click
+                infinite: true,  // Disable infinite looping
+                dots: false,  // Add dots navigation
+                prevArrow: '<button class="slick-prev">‹</button>',
+                nextArrow: '<button class="slick-next">›</button>',
+                speed: 1500,  // Animation speed
+                autoplay: true,
+                autoplaySpeed: 1200,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,  // Show 1 card at a time on smaller screens
+                    slidesToScroll: 1  // Scroll 1 card on click
+                }
+            }
+        ]
+            });
+        });
+    </script>
+
+
+    <!-- AOS Animation JS Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        $('.card-slider').on('init', function () {
+            AOS.refresh();
+        });
+    </script>
+
+    <script>
+        setTimeout(function () {
+            AOS.refresh();
+        }, 2000);
+    </script>
+
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleRide');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false // Disable pause on hover
+        });
+    </script>
+
+    <script>
+        // Functionality For Product Page Gallery Section Images Hover
+        let galleryImg1 = document.querySelector('.web-gallery-left-top img');
+        galleryImg1.addEventListener('mouseenter', () => {
+            galleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1-light.webp');
+        });
+        galleryImg1.addEventListener('mouseleave', () => {
+            galleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1.webp');
+        });
+
+        let galleryImg2 = document.querySelector('.web-gallery-left-bottom img');
+        galleryImg2.addEventListener('mouseenter', () => {
+            galleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2-light.webp');
+        });
+        galleryImg2.addEventListener('mouseleave', () => {
+            galleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2.webp');
+        });
+
+        let galleryImg3 = document.querySelector('.web-gallery-right img');
+        galleryImg3.addEventListener('mouseenter', () => {
+            galleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3-light.webp');
+        });
+        galleryImg3.addEventListener('mouseleave', () => {
+            galleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3.webp');
+        });
+    </script>
+
+    <script>
+        // Functionality For Product Page Gallery Section Images Hover
+        let mobileGalleryImg1 = document.querySelector('.mobile-gallery-left-top img');
+        mobileGalleryImg1.addEventListener('mouseenter', () => {
+            mobileGalleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1-light.webp');
+        });
+        mobileGalleryImg1.addEventListener('mouseleave', () => {
+            mobileGalleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1.webp');
+        });
+
+        let mobileGalleryImg2 = document.querySelector('.mobile-gallery-left-bottom img');
+        mobileGalleryImg2.addEventListener('mouseenter', () => {
+            mobileGalleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2-light.webp');
+        });
+        mobileGalleryImg2.addEventListener('mouseleave', () => {
+            mobileGalleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2.webp');
+        });
+
+        let mobileGalleryImg3 = document.querySelector('.mobile-gallery-right img');
+        mobileGalleryImg3.addEventListener('mouseenter', () => {
+            mobileGalleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3-light.webp');
+        });
+        mobileGalleryImg3.addEventListener('mouseleave', () => {
+            mobileGalleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3.webp');
+        });
+    </script>
+
+
+<script>
+    $(document).ready(function () {
+         $('.navbar-toggler').on('click', function () {
+            if ($('.navbar-collapse').hasClass('show')) {
+            $('nav').removeClass('navbar-expanded');
+        } else {
+            $('nav').addClass('navbar-expanded');
+        }
+        });
+    });
+</script>
+
+    <!-- JS Link -->
+    <script src="assets/js/catalouge.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
