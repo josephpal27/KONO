@@ -66,8 +66,8 @@ document.querySelectorAll('.mobile-slider-container .card').forEach((card, index
 // Functionality For Home Page Service Cards Slider Hover
 document.querySelectorAll('.services-cards-row .card').forEach((card, index) => {
   let img = card.querySelector('img');
-  let originalSrc = `assets/images/services-cards/service-card-${index + 1}.webp`;
-  let hoverSrc = `assets/images/services-cards/service-card-${index + 1}-light.webp`;
+  let originalSrc = `assets/images/services-cards/new/service-card-${index + 1}.webp`;
+  let hoverSrc = `assets/images/services-cards/new/service-card-${index + 1}-light.webp`;
 
   img.addEventListener('mouseenter', () => {
       img.setAttribute('src', hoverSrc);

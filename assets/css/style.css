@@ -110,7 +110,8 @@ nav {
 
 /* Banner Slider Section Starts Here */
 .banner-slider{
-    background-color: #2b2a2a;
+    /* background-color: #2b2a2a; */
+    background-color: #141414;
     overflow: hidden;
     /* position: relative; */
 }
@@ -118,7 +119,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2b2a2a;
+    /* background-color: #2b2a2a; */
+    background-color: #141414;
     /* height: 85vh; */
     /* overflow: hidden; */
     padding: 2rem 0 2rem 7rem;
@@ -261,7 +263,8 @@ nav {
 
 /* Expertise Row Section Starts Here */
 .expertise{
-    background-color: #222;
+    /* background-color: #222; */
+    background-color: #141414;;
     overflow: hidden;
     padding: 3rem 0;
     margin-top: 81vh;
@@ -484,7 +487,7 @@ nav {
 
 /* Services Section Starts Here */
 .services{
-    padding: 3rem 0 6rem 0;
+    padding: 4rem 0 6rem 0;
     overflow: hidden;
 }
 .services .head{
@@ -511,12 +514,12 @@ nav {
 }
 
 .services-cards-row{
-    margin-top: 3rem;
+    margin-top: 5rem;
     overflow: hidden;
 }
 .services-cards-row .card{
-    border-radius: 0;
-    width: 23%;
+    /* width: 17% !important;
+    margin-right: 3.7% !important; */
     border-radius: 5px;
     background-color: #f3f3f3;
     overflow: hidden;
@@ -537,11 +540,11 @@ nav {
     color: #1e1e1e;
 }
 .services-cards-row .card .bottom{
-    padding: 1.5rem 0.5rem 1.2rem 0.5rem;
+    padding: 1.3rem 0.5rem 1rem 0.5rem;
     text-align: center;
 }
 .services-cards-row .card .bottom h3{
-   font-size: 1.2rem;
+   font-size: 1rem;
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
 }

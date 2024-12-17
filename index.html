@@ -282,17 +282,17 @@
         <!-- Card 1 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="1000">
           <div class="top">
-              <img src="assets/images/services-cards/service-card-1.webp" alt="image">
+            <img src="assets/images/services-cards/new/service-card-1.webp" alt="image">
           </div>
-            <div class="bottom">
-              <h3>Post Top Light</h3>
-            </div>
+          <div class="bottom">
+            <h3>Post Top Light</h3>
+          </div>
         </div>
         <!-- Card 2 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="1700">
           <div class="top">
             <a href="bollards.html" target="_blank">
-              <img src="assets/images/services-cards/service-card-2.webp" alt="image">
+              <img src="assets/images/services-cards/new/service-card-2.webp" alt="image">
             </a>
           </div>
           <a href="bollards.html" target="_blank">
@@ -304,50 +304,42 @@
         <!-- Card 3 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="2400">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-3.webp" alt="image">
+            <a href="brick-light.html" target="_blank">
+              <img src="assets/images/services-cards/new/service-card-3.webp" alt="image">
             </a>
           </div>
-          <a href="" target="_blank">
+          <a href="brick-light.html" target="_blank">
             <div class="bottom">
-              <h3>Brick Light/ Wall Tiles</h3>
+              <h3>Brick Light</h3>
             </div>
           </a>
         </div>
         <!-- Card 4 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-4.webp" alt="image">
-            </a>
+              <img src="assets/images/services-cards/new/service-card-4.webp" alt="image">
           </div>
-          <a href="" target="_blank">
             <div class="bottom">
               <h3>Crash Bollards</h3>
             </div>
-          </a>
         </div>
         <!-- Card 5 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-5.webp" alt="image">
-            </a>
+              <img src="assets/images/services-cards/new/service-card-5.webp" alt="image">
           </div>
-          <a href="" target="_blank">
             <div class="bottom">
               <h3>Flood Light</h3>
             </div>
-          </a>
         </div>
         <!-- Card 6 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-6.webp" alt="image">
+            <a href="landscape.html" target="_blank">
+              <img src="assets/images/services-cards/new/service-card-6.webp" alt="image">
             </a>
           </div>
-          <a href="" target="_blank">
+          <a href="landscape.html" target="_blank">
             <div class="bottom">
               <h3>Landscape</h3>
             </div>
@@ -356,11 +348,11 @@
         <!-- Card 7 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-7.webp" alt="image">
+            <a href="multipurpose.html" target="_blank">
+              <img src="assets/images/services-cards/new/service-card-7.webp" alt="image">
             </a>
           </div>
-          <a href="" target="_blank">
+          <a href="multipurpose.html" target="_blank">
             <div class="bottom">
               <h3>Multipurpose</h3>
             </div>
@@ -370,7 +362,7 @@
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
             <a href="bespoke-lighting.html" target="_blank">
-              <img src="assets/images/services-cards/service-card-8.webp" alt="image">
+              <img src="assets/images/services-cards/new/service-card-8.webp" alt="image">
             </a>
           </div>
           <a href="bespoke-lighting.html" target="_blank">
@@ -382,13 +374,13 @@
         <!-- Card 9 -->
         <div class="card swiper-slide" data-aos="fade-up" data-aos-duration="3000">
           <div class="top">
-            <a href="" target="_blank">
-              <img src="assets/images/services-cards/service-card-9.webp" alt="image">
+            <a href="street-light.html" target="_blank">
+              <img src="assets/images/services-cards/new/service-card-9.webp" alt="image">
             </a>
           </div>
-          <a href="" target="_blank">
+          <a href="street-light.html" target="_blank">
             <div class="bottom">
-              <h3>Street Light</h3> 
+              <h3>Street Light</h3>
             </div>
           </a>
         </div>
@@ -594,34 +586,39 @@
   </script>
 
   <script>
-    // Initialize Swiper
-    const swiper = new Swiper('.services-cards-row', {
-      slidesPerView: 4, // Show 4 cards at a time
-      spaceBetween: 10, // Space between cards
-      slidesPerGroup: 1, // Move one card at a time
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next', // Next button
-        prevEl: '.swiper-button-prev', // Prev button
-      },
-      pagination: {
-        el: '.swiper-pagination', // Pagination dots
-        clickable: true, // Make dots clickable
-      },
-      breakpoints: {
-        1024: {
-          slidesPerView: 4, // For larger screens
-          spaceBetween: 30,
+    document.addEventListener('DOMContentLoaded', function () {
+      const swiper = new Swiper('.services-cards-row', {
+        slidesPerView: 5,
+        spaceBetween: 50,
+        slidesPerGroup: 1,
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
-        768: {
-          slidesPerView: 2, // For tablets
-          spaceBetween: 20,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
         },
-        576: {
-          slidesPerView: 1, // For mobile
-          spaceBetween: 10,
+        breakpoints: {
+          1200: {
+            slidesPerView: 5,
+          },
+          992: {
+            slidesPerView: 4,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          576: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
         },
-      },
+        grabCursor: true,
+      });
     });
   </script>
 
