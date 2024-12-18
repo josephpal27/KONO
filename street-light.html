@@ -37,16 +37,79 @@
 
         <div class="swiper-wrapper">
 
-
-            <!-- Slide 1 -->
-
-
             <!-- Slide 2 -->
             <div class="swiper-slide slide2">
+                <!-- Navbar Starts Here -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-lg">
+                        <!-- Logo Image on the left side -->
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="Logo" width="135">
+                        </a>
+
+                        <!-- Toggler button for mobile view -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarDropdowns" aria-controls="navbarDropdowns" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-light"></span>
+                        </button>
+
+                        <!-- Dropdown menus on the right side -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarDropdowns">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="catalogueDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Catalogue
+                                    </a>
+                                    <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="catalogueDropdown">
+                                        <li class="px-3 py-3">
+                                            <h6 class="text-center mb-3 text-light">Enter Your Details</h6>
+                                            <!-- Form -->
+                                            <form action="https://api.web3forms.com/submit" method="POST"
+                                                id="contactForm">
+                                                <input type="hidden" name="access_key"
+                                                    value="eb9dd441-7c07-407f-9bb9-131c3d1032b4">
+                                                <div class="mb-2">
+                                                    <input type="text" name="name" class="form-control-sm" id="name"
+                                                        placeholder="Name*" required>
+                                                </div>
+                                                <div class="mb-2">
+                                                    <input type="email" name="email" class="form-control-sm" id="email"
+                                                        placeholder="Email*" required>
+                                                </div>
+                                                <div class="mb-2">
+                                                    <input type="number" name="phone" class="form-control-sm" id="phone"
+                                                        placeholder="Phone No.*" required>
+                                                </div>
+                                                <button type="submit" class="btn btn-sm w-100 text-dark">View
+                                                    Catalogue</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+                <!-- Navbar Ends Here -->
+                 
                 <!-- Rounded Cards Section Starts Here -->
                 <section class="rounded-cards-bg">
                     <div class="rounded-cards container-lg">
-                        <h5>Our Expertise in Lighting Solutions</h5>
                         <h1>Illuminating Spaces with Innovation</h1>
 
                         <div class="cards-row">
@@ -95,53 +158,6 @@
                 </section>
                 <!-- Rounded Cards Section Ends Here -->
             </div>
-
-
-            <!-- Slide 3 -->
-            <div class="swiper-slide slide3">
-                <!-- Gallery Section Starts Here -->
-                <section class="gallery">
-                    <!-- Left -->
-                    <div class="gallery-left">
-                        <!-- Top -->
-                        <div class="gallery-left-top web-gallery-left-top">
-                            <div class="top-left">
-                                <img src="assets/images/gallery-lamp-1.webp" alt="image">
-                            </div>
-                            <div class="top-right">
-                                <!-- <h1>UPTO 70%</h1> -->
-                                <h5>Bring a magical glow to your surroundings with our premium outdoor lighting designs.
-                                </h5>
-                                <!-- <a href=""><button>SHOP NOW</button></a> -->
-                            </div>
-                        </div>
-                        <!-- Bottom -->
-                        <div class="gallery-left-bottom web-gallery-left-bottom">
-                            <div class="bottom-left">
-                                <!-- <h1>Stunning Sculptural Lights</h1> -->
-                                <h5>Transform your space with our exclusive collection of artistic light installations.
-                                </h5>
-                                <!-- <a href=""><button>SHOP NOW</button></a> -->
-                            </div>
-                            <div class="bottom-right">
-                                <img src="assets/images/gallery-lamp-2.webp" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Right -->
-                    <div class="gallery-right web-gallery-right">
-                        <img src="assets/images/gallery-lamp-3.webp" alt="image">
-                        <!-- <div class="gallery-right-text">
-                            <h1>Decoration Light in Dark Night</h1>
-                            <p>Sed libero enim sed faucibus turpis in eu. Lorem ipsum dolor sit amet consectetur
-                                adipiscing elit pellue habita</p>
-                            <a href=""><button>SHOP NOW</button></a>
-                        </div> -->
-                    </div>
-                </section>
-                <!-- Gallery Section Ends Here -->
-            </div>
-
 
             <!-- Slide 4 -->
             <div class="swiper-slide slide4">

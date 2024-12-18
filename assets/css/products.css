@@ -112,7 +112,7 @@ nav {
 /*  Rounded Cards Section Starts Here */
 .rounded-cards-bg {
     padding: 3.5rem 0;
-    background-color: #2a2a2a;
+    background-color: #141414;
     overflow: hidden;
 }
 
@@ -128,16 +128,16 @@ nav {
 .rounded-cards h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    margin-top: 1.5rem;
+    margin-top: 6rem;
     color: #fff;
 }
 
 .rounded-cards .cards-row {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .rounded-cards .cards-row .rounded-card {
@@ -261,30 +261,6 @@ nav {
     height: 100vh;
 }
 
-/* .gallery-right-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 6rem 0 4rem;
-}
-.gallery-right-text h1{
-    color: #fff;
-    font-size: 3.1rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-}
-.gallery-right-text p{
-    color: #fff;
-    font-size: 1.3rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    margin-top: 1.5rem;
-} */
 .gallery button {
     background-color: transparent;
     border: 2px solid #fff;
@@ -306,7 +282,7 @@ nav {
 
 /* Slide 4 Starts */
 .slide4 {
-    background-color: rgb(41, 41, 41);
+    background-color: #141414;
 }
 
 
@@ -350,10 +326,6 @@ nav {
 .slick-next {
     right: 47%;
 }
-
-/* .slick-prev:hover, .slick-next:hover {
-    background-color: #595959 !important;
-} */
 .card-slider .card img {
     width: 100%;
     transition: all 0.5s ease;
@@ -362,6 +334,30 @@ nav {
 .card-slider .card:hover img {
     scale: 1.15;
 }
+
+
+
+/* .custom-slider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+.custom-slider-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.custom-slide {
+    border-radius: 10px;
+    border: 0;
+}
+
+.custom-slide img {
+    border-radius: 10px;
+} */
 
 /* Slide 4 Ends*/
 
