@@ -11,7 +11,8 @@
 } */
 
 body{
-    background-color: #111;
+    /* background-color: #111; */
+    background-color: #141414;
 }
 
 ::selection{
@@ -111,7 +112,7 @@ nav {
 /* Banner Slider Section Starts Here */
 .banner-slider{
     /* background-color: #2b2a2a; */
-    background-color: #141414;
+    background-color: #000;
     overflow: hidden;
     /* position: relative; */
 }
@@ -270,18 +271,17 @@ nav {
     margin-top: 81vh;
 }
 .expertise-row{
-    background-color: #333;
     display: flex;
     justify-content: space-between;
     padding: 0;
     overflow: hidden;
 }
 .expertise-row .expertise-card{
-    width: 24%;
+    width: 20.5%;
     padding: 2rem 0;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.2s ease;
+    background-color: #333;
 }
 .expertise-row .expertise-card:hover{
     background-color: rgb(62, 62, 62);
@@ -292,11 +292,11 @@ nav {
     justify-content: center;
 }
 .expertise-row .expertise-card .card-left i{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #b6b6b6;
 }
 .expertise-row .expertise-card .card-right h2{
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #fff;
@@ -343,7 +343,7 @@ nav {
 
 /* About Us Section Starts Here */
 #about{
-  background-color: #1c1c1c;
+  background-color: #141414;
   overflow: hidden;
 }
 
@@ -404,11 +404,11 @@ nav {
   display: flex;
   justify-content: space-between;
   /* background-color: #c1c0c0; */
-  width: 90%;
+  width: 100%;
 }
 .about-content .content-menu .menu{
   width: 32.8%;
-  background-color: #969696;
+  background-color: #7b7979;
   padding: 1rem 1.5rem;
   text-align: center;
   color: #fff;
@@ -419,7 +419,7 @@ nav {
   transition: all 0.1s ease-in-out;
 }
 .about-content .content-menu .menu:hover{
-  background-color: #b6b6b6;
+  background-color: #848484;
 }
 .about-content .content-menu .menu.active{
   background-color: #5d5d5d;
@@ -611,7 +611,7 @@ nav {
 
 /* Work with the experts Section Starts Here */
 .work-with-experts{
-  background-color: #1c1c1c;
+  background-color: #141414;
   overflow: hidden;
   padding: 6rem 0 8rem 0;
 }
