@@ -287,20 +287,22 @@ nav {
 
 
 .slider-container {
-    padding: 10vh 0;
     position: relative;
 }
 
-.slick-slide {
-    margin: 0 15px;
+.card-slider .slick-slide {
+    margin: 0 20px;
 }
 
+.card-slider {
+    padding: 0 5rem;
+    height: 70vh;
+    margin-top: 25vh;
+}
 .card-slider .card {
     text-align: center;
     border: none;
     overflow: hidden;
-    padding-bottom: 2.2rem;
-    height: 80vh;
 }
 
 .slick-prev,
@@ -310,13 +312,14 @@ nav {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    font-size: 2rem;
     position: absolute;
     bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(600%);
+    transform: translateY(350%);
 }
 
 .slick-prev {
@@ -333,6 +336,14 @@ nav {
 
 .card-slider .card:hover img {
     scale: 1.15;
+}
+.card-slider .card .slide-desc {
+    padding: 0.4rem 0 0.7rem 0;
+}
+.card-slider .card .slide-desc p{
+    font-weight: 600;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 

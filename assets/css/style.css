@@ -134,13 +134,14 @@ nav {
   visibility: visible;
 }
 .banner-slider .slide .slide-text{
-    width: 50%;
-    padding-right: 2rem;
+    width: 51%;
+    padding-right: 1rem;
 }
 .banner-slider .slide .slide-text h1{
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    font-size: 1.7rem;
 }
 .banner-slider .slide .slide-text p{
     color: #dbdbdb;
@@ -177,7 +178,7 @@ nav {
   font-weight: 700;
 }
 .banner-slider .slide .slide-image{
-    width: 50%;
+    width: 49%;
     overflow: hidden;
 }
 .banner-slider .slide .slide-image img{
@@ -276,7 +277,7 @@ nav {
 }
 .expertise-row .expertise-card{
     width: 20.5%;
-    padding: 2rem 0;
+    padding: 1rem 0 0.7rem 0;
     display: flex;
     transition: all 0.2s ease;
     background-color: #333;
@@ -346,7 +347,7 @@ nav {
 }
 
 .about-us{
-  padding: 6rem 0 10rem 0;
+  padding: 2rem 7rem 4rem 7rem;
   overflow: hidden;
   position: relative;
 }
@@ -364,41 +365,40 @@ nav {
 } */
 
 .about-content{
-  width: 57%;
+  width: 45%;
   background-color: #ebebeb;
   position: absolute;
-  top: 20%;
-  right: 10px;
-  padding: 3rem;
+  top: 18%;
+  right: 7rem;
+  padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.808) 0px 3px 8px;
 }
 .about-content h5{
   /* color: #dbdbdb; */
   color: #1c1c1c;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
-.about-content h1{
-  /* color: #f3f3f3; */
+/* .about-content h1{
   color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  margin-top: 1rem;
-}
+  margin-top: 0.5rem;
+} */
 .about-content .line{
-  margin-top: 1.3rem;
+  margin-top: 0;
   width: 3rem;
 }
 .about-content p{
-  margin-top: 1.8rem;
+  margin-top: 1rem;
   /* color: #c1c0c0; */
   color: #5d5d5d;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
 
 .about-content .content-menu{
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   /* background-color: #c1c0c0; */
@@ -407,11 +407,11 @@ nav {
 .about-content .content-menu .menu{
   width: 32.8%;
   background-color: #7b7979;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   text-align: center;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
@@ -425,9 +425,9 @@ nav {
 .about-content .content-text{
   background-color: #7b7979; 
   margin-top: 5px;
-  padding: 1.7rem 1.5rem;
+  padding: 1rem 1rem;
   display: none;
-  min-height: 20.2rem;
+  min-height: 18rem;
 }
 .content-text.active {
   display: block;
@@ -436,9 +436,36 @@ nav {
   margin: 0;
   margin-bottom: 0.6rem;
   color: #fff;
+  font-size: 0.89rem;
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width: 1300px) {
+  .about-us{
+    padding: 1rem 7rem 3rem 7rem;
+  }
+  .about-content{
+    top: 16%;
+    padding: 1rem;
+  }
+  .about-content h5{
+    font-size: 1.4rem;
+  }
+  .about-content p{
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .about-content .content-menu .menu{
+    padding: 0.3rem 1.5rem;
+    font-size: 0.8rem;
+  }
+  .about-content .content-text{
+    min-height: 15.5rem;
+  }
+  .about-content .content-text p{
+    font-size: 0.75rem;
+  }
+}
 @media screen and (max-width: 576px) {
   .about-us{
     padding: 0rem 0 35rem 0;
