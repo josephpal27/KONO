@@ -337,6 +337,9 @@ nav {
 .card-slider .card:hover img {
     scale: 1.15;
 }
+.card-slider .card .slide-img {
+    overflow: hidden;
+}
 .card-slider .card .slide-desc {
     padding: 0.4rem 0 0.7rem 0;
 }
