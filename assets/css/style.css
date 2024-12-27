@@ -135,20 +135,20 @@ nav {
 }
 .banner-slider .slide .slide-text{
     width: 51%;
-    padding-right: 1rem;
+    padding-right: 6rem;
 }
 .banner-slider .slide .slide-text h1{
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .banner-slider .slide .slide-text p{
     color: #dbdbdb;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    margin-top: 2rem;
-    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
 }
 .banner-slider .slide .slide-text button{
   font-family: "Montserrat", sans-serif;
