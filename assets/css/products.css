@@ -156,7 +156,8 @@ nav {
 .rounded-cards .cards-row .rounded-card img {
     width: 100%;
     border-radius: 50%;
-    border: 1.3rem solid #fff;
+    /* border: 1.3rem solid #fff; */
+    border: 0.5rem solid #fff;
     transition: all 0.5s ease;
 }
 
