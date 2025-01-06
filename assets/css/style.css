@@ -96,6 +96,12 @@ nav {
     z-index: 100 !important;
     padding: 0.7rem 0 !important;
   }
+  nav .navbar-brand img {
+   width: 100px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1.1rem !important;
+}
   .navbar-collapse {
     text-align: center;
 }
@@ -266,8 +272,8 @@ nav {
     /* background-color: #222; */
     background-color: #141414;;
     overflow: hidden;
-    padding: 3rem 0;
-    margin-top: 81vh;
+    padding: 2rem 0;
+    margin-top: 78vh;
 }
 .expertise-row{
     display: flex;
@@ -500,7 +506,7 @@ nav {
   }
   .about-content .content-text{
     padding: 0.5rem 0.7rem;
-    min-height: 19rem;
+    min-height: 20rem;
   }
   .about-content .content-text p{
     font-size: 0.82rem;
@@ -611,10 +617,10 @@ nav {
     padding: 2rem 0.7rem;
 }
 .services h1{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .services h2{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 0.2rem;
 }
@@ -629,6 +635,15 @@ nav {
 .services-cards-row .card{
   width: 100%;
   margin-bottom: 1rem;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 25px;
+  height: 25px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 13px;
 }
 }
 /* Services Section Ends Here */
@@ -730,10 +745,11 @@ nav {
     padding: 2rem 0 0 0;
   }
   .work-with-experts .head h1{
-    font-size: 1.3rem;
+    font-size: 1rem;
+    text-align: center;
   }
   .work-with-experts .head h2{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 0.2rem;
   }

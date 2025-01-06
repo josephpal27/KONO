@@ -291,6 +291,9 @@ nav {
         padding: 0.6rem 0 !important;
         /* backdrop-filter: blur(10px); */
     }
+    .navbar-nav .nav-link {
+        font-size: 1.1rem !important;
+    }
     /* Navbar Media Ends */
 
     /* Contact Box Media Starts */
@@ -307,10 +310,10 @@ nav {
         font-size: 1rem;
     }
     .contact-form h1{
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     .contact-form h2{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         margin-bottom: 1.3rem;
     }
     .contact-form{

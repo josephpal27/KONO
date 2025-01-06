@@ -353,30 +353,6 @@ nav {
     font-family: "Montserrat", sans-serif;
 }
 
-
-
-/* .custom-slider {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 0 6rem;
-}
-
-.custom-slider-wrapper {
-    display: flex;
-    gap: 2rem;
-}
-
-.custom-slide {
-    border-radius: 10px;
-    border: 0;
-}
-
-.custom-slide img {
-    border-radius: 10px;
-} */
-
 /* Slide 4 Ends*/
 
 
@@ -404,20 +380,25 @@ nav {
     nav {
         padding: 0.6rem 0 !important;
     }
-
+    .navbar-nav .nav-link {
+        font-size: 1.1rem !important;
+    }
     /* Navbar Media Ends */
 
     /* Rounded Cards Media Starts */
     .rounded-cards-bg {
+        padding: 6rem 0 2rem 0;
+    }
+    #bespoke-rounded-cards-section{
         padding: 2rem 0;
     }
 
     .rounded-cards h5 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .rounded-cards h1 {
-        font-size: 1.6rem;
+        font-size: 1.1rem;
         margin-top: 0.5rem;
     }
 
@@ -433,7 +414,7 @@ nav {
     }
 
     .rounded-cards .cards-row .rounded-card img {
-        border: 0.8rem solid #fff;
+        border: 0.4rem solid #fff;
     }
 
     .rounded-cards .cards-row .rounded-card .card-desc {
@@ -441,7 +422,7 @@ nav {
     }
 
     .rounded-cards .cards-row .rounded-card .card-desc h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .rounded-cards .cards-row .rounded-card .card-desc p {
@@ -508,9 +489,16 @@ nav {
         background-color: #000;
         overflow: hidden;
     }
-
+    .card-slider {
+        padding: 0 1rem 4rem 1rem;
+        height: auto;
+        margin-top: 1rem;
+    }
+    #bespoke-slider-section{
+        padding: 3rem 0;
+    }
     .slider-container {
-        padding: 22.5vh 0;
+        padding: 2rem 0;
     }
 
     .slick-slide {
@@ -522,7 +510,7 @@ nav {
         border: none;
         overflow: hidden;
         padding-bottom: 0;
-        height: 55vh;
+        height: auto;
     }
 
     .slick-prev,
@@ -538,15 +526,20 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: translateY(480%);
+        transform: translateY(400%);
+    }
+
+    #bespoke-slider-section .slick-prev,
+    #bespoke-slider-section .slick-next{
+        transform: translateY(290%);
     }
 
     .slick-prev {
-        left: 39%;
+        left: 35%;
     }
 
     .slick-next {
-        right: 39%;
+        right: 35%;
     }
 
     /* Slider Section Media Ends */
