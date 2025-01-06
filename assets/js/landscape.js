@@ -33,8 +33,8 @@ document.querySelectorAll('.web-rounded-card').forEach((card, index) => {
   // Functionality For Product Page Cards Slider Hover
   document.querySelectorAll('.web-slider-container .card').forEach((card, index) => {
     let img = card.querySelector('img');
-    let originalSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}.jpg`;
-    let hoverSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}-light.jpg`;
+    let originalSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}.webp`;
+    let hoverSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}-light.webp`;
   
     img.addEventListener('mouseenter', () => {
         img.setAttribute('src', hoverSrc);
@@ -48,8 +48,8 @@ document.querySelectorAll('.web-rounded-card').forEach((card, index) => {
   // Functionality For Product Page Cards Slider Hover on MOBILE SCREENS
   document.querySelectorAll('.mobile-slider-container .card').forEach((card, index) => {
     let img = card.querySelector('img');
-    let originalSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}.jpg`;
-    let hoverSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}-light.jpg`;
+    let originalSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}.webp`;
+    let hoverSrc = `assets/images/product-slider/landscape/product-slide-${index + 1}-light.webp`;
   
     img.addEventListener('mouseenter', () => {
         img.setAttribute('src', hoverSrc);
