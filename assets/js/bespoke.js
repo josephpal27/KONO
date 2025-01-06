@@ -1,8 +1,8 @@
 // Functionality For Product Page Rounded Cards Hover
 document.querySelectorAll('.web-rounded-card').forEach((card, index) => {
     let img = card.querySelector('img');
-    let originalSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}.jpg`;
-    let hoverSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}-light.jpg`;
+    let originalSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}.webp`;
+    let hoverSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}-light.webp`;
   
     img.addEventListener('mouseenter', () => {
         img.setAttribute('src', hoverSrc);
@@ -16,8 +16,8 @@ document.querySelectorAll('.web-rounded-card').forEach((card, index) => {
   // Functionality For Product Page Rounded Cards Hover on MOBILE SCREEN
   document.querySelectorAll('.mobile-rounded-card').forEach((card, index) => {
     let img = card.querySelector('img');
-    let originalSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}.jpg`;
-    let hoverSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}-light.jpg`;
+    let originalSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}.webp`;
+    let hoverSrc = `assets/images/rounded-cards/bespoke/rounded-card-${index + 1}-light.webp`;
   
     img.addEventListener('mouseenter', () => {
         img.setAttribute('src', hoverSrc);
