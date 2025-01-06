@@ -538,9 +538,9 @@
                 dots: false,  // Add dots navigation
                 prevArrow: '<button class="slick-prev">‹</button>',
                 nextArrow: '<button class="slick-next">›</button>',
-                speed: 1500,  // Animation speed
+                speed: 2000,  // Animation speed
                 autoplay: true,
-                autoplaySpeed: 1200,
+                autoplaySpeed: 1500,
                 pauseOnHover: false,
                 pauseOnFocus: false,
                 responsive: [
@@ -582,61 +582,6 @@
         });
     </script>
 
-    <script>
-        // Functionality For Product Page Gallery Section Images Hover
-        let galleryImg1 = document.querySelector('.web-gallery-left-top img');
-        galleryImg1.addEventListener('mouseenter', () => {
-            galleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1-light.webp');
-        });
-        galleryImg1.addEventListener('mouseleave', () => {
-            galleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1.webp');
-        });
-
-        let galleryImg2 = document.querySelector('.web-gallery-left-bottom img');
-        galleryImg2.addEventListener('mouseenter', () => {
-            galleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2-light.webp');
-        });
-        galleryImg2.addEventListener('mouseleave', () => {
-            galleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2.webp');
-        });
-
-        let galleryImg3 = document.querySelector('.web-gallery-right img');
-        galleryImg3.addEventListener('mouseenter', () => {
-            galleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3-light.webp');
-        });
-        galleryImg3.addEventListener('mouseleave', () => {
-            galleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3.webp');
-        });
-    </script>
-
-    <script>
-        // Functionality For Product Page Gallery Section Images Hover
-        let mobileGalleryImg1 = document.querySelector('.mobile-gallery-left-top img');
-        mobileGalleryImg1.addEventListener('mouseenter', () => {
-            mobileGalleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1-light.webp');
-        });
-        mobileGalleryImg1.addEventListener('mouseleave', () => {
-            mobileGalleryImg1.setAttribute('src', 'assets/images/gallery-lamp-1.webp');
-        });
-
-        let mobileGalleryImg2 = document.querySelector('.mobile-gallery-left-bottom img');
-        mobileGalleryImg2.addEventListener('mouseenter', () => {
-            mobileGalleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2-light.webp');
-        });
-        mobileGalleryImg2.addEventListener('mouseleave', () => {
-            mobileGalleryImg2.setAttribute('src', 'assets/images/gallery-lamp-2.webp');
-        });
-
-        let mobileGalleryImg3 = document.querySelector('.mobile-gallery-right img');
-        mobileGalleryImg3.addEventListener('mouseenter', () => {
-            mobileGalleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3-light.webp');
-        });
-        mobileGalleryImg3.addEventListener('mouseleave', () => {
-            mobileGalleryImg3.setAttribute('src', 'assets/images/gallery-lamp-3.webp');
-        });
-    </script>
-
-
 <script>
     $(document).ready(function () {
          $('.navbar-toggler').on('click', function () {
@@ -652,6 +597,7 @@
     <!-- JS Link -->
     <script src="assets/js/catalouge.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/crash-bollards.js"></script>
 
 </body>
 
