@@ -8,7 +8,6 @@
 
 
 body{
-    /* background-color: #111; */
     background-color: #141414;
 }
 
@@ -24,8 +23,6 @@ nav {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 500 !important;
   font-size: 1.2rem !important;
-  /* position: sticky !important;
-  top: 0; */
 }
 .navbar-nav .nav-link,
 .navbar-brand,
@@ -68,6 +65,9 @@ nav {
   background-color: #2e2e2e;
   border: none;
   outline: none;
+}
+.custom-dropdown-menu input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
 }
 .custom-dropdown-menu button{
   background-color: #c9c9c9;
