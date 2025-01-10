@@ -272,6 +272,17 @@ window.addEventListener("scroll", () => {
 
 // -----------------------------------------------------------------------------------------------------------------------------------------
 
+// Functionality For Navbar Menu Button
+// document.addEventListener('click', function (event) {
+//   const navbar = document.querySelector('.navbar-collapse');
+//   const toggler = document.querySelector('.navbar-toggler');
+
+//   // Check if the click is outside the navbar and it's open
+//   if (navbar.classList.contains('show') && !navbar.contains(event.target) && !toggler.contains(event.target)) {
+//       // Manually hide the navbar menu
+//       new bootstrap.Collapse(navbar).hide();
+//   }
+// });
 
 
 
