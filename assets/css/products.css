@@ -545,4 +545,18 @@ nav {
     /* Slider Section Media Ends */
 }
 
+@media screen and (min-width: 390px) and (max-width: 450px) {
+    .card-slider {
+        padding: 0 1rem 5rem 1rem;
+    }
+    .slick-prev,
+    .slick-next {
+        transform: translateY(480%);
+    }
+    #bespoke-slider-section .slick-prev,
+    #bespoke-slider-section .slick-next{
+        transform: translateY(350%);
+    }
+}
+
 /* Media For Mobile Screen Ends Here */
