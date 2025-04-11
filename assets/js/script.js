@@ -1,134 +1,146 @@
-
 // Functionality For Product Page Rounded Cards Hover
-document.querySelectorAll('.web-rounded-card').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1}.webp`;
-  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1}-light.webp`;
+document.querySelectorAll(".web-rounded-card").forEach((card, index) => {
+  let img = card.querySelector("img");
+  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1
+    }.webp`;
+  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1
+    }-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
+  img.addEventListener("mouseenter", () => {
+    img.setAttribute("src", hoverSrc);
   });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+  img.addEventListener("mouseleave", () => {
+    img.setAttribute("src", originalSrc);
   });
 });
 
 // Functionality For Product Page Rounded Cards Hover on MOBILE SCREEN
-document.querySelectorAll('.mobile-rounded-card').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1}.webp`;
-  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1}-light.webp`;
+document.querySelectorAll(".mobile-rounded-card").forEach((card, index) => {
+  let img = card.querySelector("img");
+  let originalSrc = `assets/images/rounded-cards/rounded-card-${index + 1
+    }.webp`;
+  let hoverSrc = `assets/images/rounded-cards/rounded-card-${index + 1
+    }-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
+  img.addEventListener("mouseenter", () => {
+    img.setAttribute("src", hoverSrc);
   });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+  img.addEventListener("mouseleave", () => {
+    img.setAttribute("src", originalSrc);
   });
 });
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Product Page Cards Slider Hover
-document.querySelectorAll('.web-slider-container .card').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/product-slider/product-slide-${index + 1}.webp`;
-  let hoverSrc = `assets/images/product-slider/product-slide-${index + 1}-light.webp`;
+document
+  .querySelectorAll(".web-slider-container .card")
+  .forEach((card, index) => {
+    let img = card.querySelector("img");
+    let originalSrc = `assets/images/product-slider/product-slide-${index + 1
+      }.webp`;
+    let hoverSrc = `assets/images/product-slider/product-slide-${index + 1
+      }-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
-  });
+    img.addEventListener("mouseenter", () => {
+      img.setAttribute("src", hoverSrc);
+    });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+    img.addEventListener("mouseleave", () => {
+      img.setAttribute("src", originalSrc);
+    });
   });
-});
 
 // Functionality For Product Page Cards Slider Hover on MOBILE SCREENS
-document.querySelectorAll('.mobile-slider-container .card').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/product-slider/product-slide-${index + 1}.webp`;
-  let hoverSrc = `assets/images/product-slider/product-slide-${index + 1}-light.webp`;
+document
+  .querySelectorAll(".mobile-slider-container .card")
+  .forEach((card, index) => {
+    let img = card.querySelector("img");
+    let originalSrc = `assets/images/product-slider/product-slide-${index + 1
+      }.webp`;
+    let hoverSrc = `assets/images/product-slider/product-slide-${index + 1
+      }-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
-  });
+    img.addEventListener("mouseenter", () => {
+      img.setAttribute("src", hoverSrc);
+    });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+    img.addEventListener("mouseleave", () => {
+      img.setAttribute("src", originalSrc);
+    });
   });
-});
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Home Page Service Cards Slider Hover
-document.querySelectorAll('.services-cards-row .card').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/services-cards/new/service-card-${index + 1}.webp`;
-  let hoverSrc = `assets/images/services-cards/new/service-card-${index + 1}-light.webp`;
+document
+  .querySelectorAll(".services-cards-row .card")
+  .forEach((card, index) => {
+    let img = card.querySelector("img");
+    let originalSrc = `assets/images/services-cards/new/service-card-${index + 1
+      }.webp`;
+    let hoverSrc = `assets/images/services-cards/new/service-card-${index + 1
+      }-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
+    img.addEventListener("mouseenter", () => {
+      img.setAttribute("src", hoverSrc);
+    });
+
+    img.addEventListener("mouseleave", () => {
+      img.setAttribute("src", originalSrc);
+    });
   });
-
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
-  });
-});
-
-
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Home Page Banner Image Hover
-document.querySelectorAll('.banner-slider .slide-image').forEach((card, index) => {
-  let img = card.querySelector('img');
-  let originalSrc = `assets/images/slider/banner-${index + 1}.webp`;
-  let hoverSrc = `assets/images/slider/banner-${index + 1}-light.webp`;
+document
+  .querySelectorAll(".banner-slider .slide-image")
+  .forEach((card, index) => {
+    let img = card.querySelector("img");
+    let originalSrc = `assets/images/slider/banner-${index + 1}.webp`;
+    let hoverSrc = `assets/images/slider/banner-${index + 1}-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
-  });
+    img.addEventListener("mouseenter", () => {
+      img.setAttribute("src", hoverSrc);
+    });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+    img.addEventListener("mouseleave", () => {
+      img.setAttribute("src", originalSrc);
+    });
   });
-});
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
-
 // Functionality For Home Page About Image Hover
-document.querySelectorAll('.about-us .about-image').forEach((card, index) => {
-  let img = card.querySelector('img');
+document.querySelectorAll(".about-us .about-image").forEach((card, index) => {
+  let img = card.querySelector("img");
   let originalSrc = `assets/images/about-${index + 1}.webp`;
   let hoverSrc = `assets/images/about-${index + 1}-light.webp`;
 
-  img.addEventListener('mouseenter', () => {
-      img.setAttribute('src', hoverSrc);
+  img.addEventListener("mouseenter", () => {
+    img.setAttribute("src", hoverSrc);
   });
 
-  img.addEventListener('mouseleave', () => {
-      img.setAttribute('src', originalSrc);
+  img.addEventListener("mouseleave", () => {
+    img.setAttribute("src", originalSrc);
   });
 });
-
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Home Page Contact Image Hover
-let contactBg = document.querySelector('.contact img');
-contactBg.addEventListener('mouseenter', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1-light.webp');
-})
-contactBg.addEventListener('mouseleave', () => {
-  contactBg.setAttribute('src', 'assets/images/contact-bg-1.webp');
-})
+let contactBg = document.querySelector(".contact img");
+contactBg.addEventListener("mouseenter", () => {
+  contactBg.setAttribute("src", "assets/images/contact-bg-1-light.webp");
+});
+contactBg.addEventListener("mouseleave", () => {
+  contactBg.setAttribute("src", "assets/images/contact-bg-1.webp");
+});
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
-
 
 // Functionality For Home Page Banner Slider
 document.addEventListener("DOMContentLoaded", function () {
@@ -172,8 +184,6 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(nextSlide, intervalTime);
 });
 
-
-
 // let slideImgBox = document.querySelectorAll(".slide-image");
 // let slideImg = document.querySelectorAll(".slide-image img");
 
@@ -207,7 +217,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ---------------------------------------------------------------------------------------------------------------------------------------
 
-
 // Functionality For Home Page Cards Hover Effect
 let card = document.querySelectorAll(".expert-card");
 let layer = document.querySelectorAll(".card-count .layer");
@@ -230,17 +239,13 @@ card.forEach((card, index) => {
 document.querySelectorAll(".content-menu .menu").forEach((menu) => {
   menu.addEventListener("click", function () {
     // Remove the 'active' class from all menu items
-    document
-      .querySelectorAll(".content-menu .menu")
-      .forEach((item) => item.classList.remove("active"));
+    document.querySelectorAll(".content-menu .menu").forEach((item) => item.classList.remove("active"));
 
     // Add the 'active' class to the clicked menu item
     this.classList.add("active");
 
     // Hide all content sections
-    document
-      .querySelectorAll(".content-text")
-      .forEach((content) => content.classList.remove("active"));
+    document.querySelectorAll(".content-text").forEach((content) => content.classList.remove("active"));
 
     // Show the corresponding content section
     const target = this.getAttribute("data-target");
@@ -283,6 +288,3 @@ window.addEventListener("scroll", () => {
 //       new bootstrap.Collapse(navbar).hide();
 //   }
 // });
-
-
-
